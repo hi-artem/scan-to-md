@@ -1,6 +1,5 @@
 use serde::Deserialize;
 use serde_json::Result;
-use std::fmt;
 use std::fs;
 use std::env;
 
@@ -18,14 +17,18 @@ struct ScanResult {
     id: String,
     #[serde(default = "default_string")]
     name: String,
-    #[serde(default = "default_compliances_vector")]
-    compliances: Vec<Compliance>,
     #[serde(rename = "complianceScanPassed", default = "default_bool")]
     compliance_scan_passed: bool,
-    #[serde(default = "default_vulnerabilities_vector")]
-    vulnerabilities: Vec<Vulnerability>,
     #[serde(rename = "vulnerabilityScanPassed", default = "default_bool")]
     vulnerability_scan_passed: bool,
+    #[serde(default = "default_compliances_vector")]
+    compliances: Vec<Compliance>,
+    #[serde(default = "default_vulnerabilities_vector")]
+    vulnerabilities: Vec<Vulnerability>,
+    #[serde(rename = "vulnerabilityDistribution", default = "default_scan_results_distribution")]
+    vulnerability_distribution: ScanResultDistribution,    
+    #[serde(rename = "complianceDistribution", default = "default_scan_results_distribution")]
+    compliance_distribution: ScanResultDistribution,
 }
 
 #[derive(Deserialize)]
@@ -62,6 +65,20 @@ struct Vulnerability {
     grace_days: i32,
 }
 
+#[derive(Deserialize)]
+struct ScanResultDistribution {
+    #[serde(default = "default_i32")]
+    critical: i32,
+    #[serde(default = "default_i32")]
+    high: i32,
+    #[serde(default = "default_i32")]
+    medium: i32,
+    #[serde(default = "default_i32")]
+    low: i32,
+    #[serde(default = "default_i32")]
+    total: i32,
+}
+
 fn default_string() -> String {
     "".to_string()
 }
@@ -87,6 +104,17 @@ fn default_vulnerabilities_vector() -> Vec<Vulnerability> {
 fn default_scan_results_vector() -> Vec<ScanResult> {
     let default_scan_results =  Vec::new();
     default_scan_results
+}
+
+fn default_scan_results_distribution() -> ScanResultDistribution {
+    let default_scan_results_distribution =  ScanResultDistribution {
+        critical: 0,
+        high: 0,
+        medium: 0,
+        low: 0,
+        total: 0
+    };
+    default_scan_results_distribution
 }
 
 
@@ -115,9 +143,16 @@ fn container_scan() -> Result<()> {
 
     let scan_result = &scan.results[0];
     let vulnerabilities = &scan.results[0].vulnerabilities;
+    let vulnerability_distribution = &scan.results[0].vulnerability_distribution;
     let compliances = &scan.results[0].compliances;
+    let compliance_distribution = &scan.results[0].compliance_distribution;
 
     let mut vulnerabilities_table = String::from("| Id | Package | Version | Description | Severity | Grace Days |\n| --- | --- | --- | --- | --- | --- |\n");
+    
+    if vulnerabilities.len() == 0 {
+        vulnerabilities_table = String::from("No vulnerabilities found!");
+    }
+    
     for v in vulnerabilities {
         vulnerabilities_table = format!(
             "{}| [{}]({}) | {} | {} | {} | {} | {} |\n",
@@ -136,8 +171,21 @@ fn container_scan() -> Result<()> {
         vulnerabilities_table
     );
 
+    let vulnerability_distribution_stats = format!(
+        "Critical: {} High: {} Medium: {} Low: {} Total: {}\n\n",
+        vulnerability_distribution.critical,
+        vulnerability_distribution.high,
+        vulnerability_distribution.medium,
+        vulnerability_distribution.low,
+        vulnerability_distribution.total,
+    );
+
     let mut compliances_table =
         String::from("| Title | Severity | Description |\n| --- | --- | --- |\n");
+
+    if compliances.len() == 0 {
+        compliances_table = String::from("No compliance violations found!");
+    }
     for c in compliances {
         compliances_table = format!(
             "{}| {} | {} | {} {} |\n",
@@ -153,6 +201,15 @@ fn container_scan() -> Result<()> {
         compliances_table
     );
 
+    let compliance_distribution_stats = format!(
+        "Critical: {} High: {} Medium: {} Low: {} Total: {}\n\n",
+        compliance_distribution.critical,
+        compliance_distribution.high,
+        compliance_distribution.medium,
+        compliance_distribution.low,
+        compliance_distribution.total,
+    );
+
     let vulnerability_scan_results = if scan_result.vulnerability_scan_passed {
         "Passed :white_check_mark:"
     } else {
@@ -166,16 +223,18 @@ fn container_scan() -> Result<()> {
     let prisma_logo = "![Prisma Cloud Logo](https://www.paloaltonetworks.com/content/dam/pan/en_US/images/logos/brand/prisma-primary-reversed/Prisma-logo-reversed.png)\n";
 
     let scan_result_body = format!(
-        "# Scan result for {}\n\n{}\n\n## Vulnerabilities\n\nStatus: {}\n\n{}\n\n## Compliance\n\nStatus: {}\n\n{}\n\n",
+        "# Scan result for {}\n\n{}\n\n## Vulnerabilities\n\n{}Status: {}\n\n{}\n\n## Compliance\n\n{}Status: {}\n\n{}\n\n",
         scan_result.name,
         prisma_logo,
+        vulnerability_distribution_stats,
         vulnerability_scan_results,
         vulnerabilities_table_expandable,
+        compliance_distribution_stats,
         compliance_scan_results,
         compliances_table_expandable
     );
 
-    print!("{}## Links\n\n- [View scan result in Prisma Cloud console]({})\n- [Do other stuff](https://example.com)\n\n", scan_result_body, scan.console_url);
+    print!("{}## Links\n\n- [View scan result in Prisma Cloud console]({})\n\n", scan_result_body, scan.console_url);
 
     Ok(())
 }
