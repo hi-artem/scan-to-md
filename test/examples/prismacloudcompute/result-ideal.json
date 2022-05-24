@@ -1,0 +1,41 @@
+{
+	"results": [
+		{
+			"id": "sha256:17d3360ac4af118155ab6dde52f411fc6332e2b63b22aa0d21a994fb24e8f39c",
+			"name": "aakatev/scratch:latest",
+			"distro": "",
+			"collections": [
+				"All"
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "0000-12-31T16:07:02-07:52",
+					"instruction": "USER 1001"
+				},
+				{
+					"created": "0000-12-31T16:07:02-07:52",
+					"instruction": "HEALTHCHECK \u0026{[\"NONE\"] \"0s\" \"0s\" \"0s\" '\\x00'}"
+				}
+			],
+			"scanTime": "2022-05-20T21:01:46.994976Z",
+			"scanID": "628801ba1a7d109f5b305761"
+		}
+	],
+	"consoleURL": "https://prismacloud.example.com/#!/monitor/vulnerabilities/images/ci?search=sha256%3A17d3360ac4af118155ab6dde52f411fc6332e2b63b22aa0d21a994fb24e8f39c"
+}

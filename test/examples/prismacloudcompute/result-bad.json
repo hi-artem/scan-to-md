@@ -1,0 +1,5980 @@
+{
+	"results": [
+		{
+			"id": "sha256:47a63895a7e6ab14e5488fdb7a59165b6a95076bd82cffc61c622896c965ec45",
+			"name": "aakatev/renovate:alpine",
+			"distro": "Alpine Linux v3.15",
+			"distroRelease": "3.15.3",
+			"collections": [
+				"All",
+				"renovate-image-collection"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "yarn",
+					"version": "1.22.17-r0",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nodejs",
+					"version": "16.14.2-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "c-ares",
+					"version": "1.18.1-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gdbm",
+					"version": "1.22-r0",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls",
+					"version": "3.7.1-r0",
+					"licenses": [
+						"LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "0.9.10-r1",
+					"licenses": [
+						"GPL-2.0+ OR LGPL-3.0+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtasn1",
+					"version": "4.18.0-r0",
+					"licenses": [
+						"LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.24.0-r1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.4.2-r1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.7.3-r0",
+					"licenses": [
+						"LGPL-2.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "6.2.1-r1",
+					"licenses": [
+						"LGPL-3.0-or-later OR GPL-2.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libksba",
+					"version": "1.6.0-r0",
+					"licenses": [
+						"GPL-2.0-or-later or GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "npth",
+					"version": "1.6-r1",
+					"licenses": [
+						"LGPL-3.0-or-later or GPL-2.0-or-later or (LGPL-3.0-or-later and GPL-2.0-or-later)"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcrypt",
+					"version": "1.9.4-r0",
+					"licenses": [
+						"LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pinentry",
+					"version": "1.2.0-r0",
+					"licenses": [
+						"GPL-2.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap",
+					"version": "2.61-r0",
+					"licenses": [
+						"BSD-3-Clause OR GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libassuan",
+					"version": "2.5.5-r0",
+					"licenses": [
+						"LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.42-r1",
+					"licenses": [
+						"GPL-2.0-or-later LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "git",
+					"version": "2.34.1-r0",
+					"licenses": [
+						"GPL-2.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre2",
+					"version": "10.39-r0",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "expat",
+					"version": "2.4.7-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dumb-init",
+					"version": "1.2.5-r1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apk-tools",
+					"version": "2.12.7-r3",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1.2.12-r0",
+					"licenses": [
+						"Zlib"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libretls",
+					"version": "3.3.4-r3",
+					"licenses": [
+						"ISC AND (BSD-3-Clause OR MIT)"
+					]
+				},
+				{
+					"type": "os",
+					"name": "alpine-keys",
+					"version": "2.4-r1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "alpine-baselayout",
+					"version": "3.2.0-r18",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nghttp2",
+					"version": "1.46.0-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "brotli",
+					"version": "1.0.9-r5",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "curl",
+					"version": "7.80.0-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "busybox",
+					"version": "1.34.1-r4",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc",
+					"version": "10.3.1_git20211027-r0",
+					"licenses": [
+						"GPL-2.0-or-later LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-r1",
+					"licenses": [
+						"bzip2-1.0.6"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.3_p20211120-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "musl",
+					"version": "1.2.2-r7",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pax-utils",
+					"version": "1.3.3-r0",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20211220-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnupg",
+					"version": "2.2.31-r1",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openldap",
+					"version": "2.6.0-r0",
+					"licenses": [
+						"OLDAP-2.8"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cyrus-sasl",
+					"version": "2.1.28-r0",
+					"licenses": [
+						"custom"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite",
+					"version": "3.36.0-r0",
+					"licenses": [
+						"blessing"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "1.1.1n-r0",
+					"licenses": [
+						"OpenSSL"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/node-config-provider",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-node-config-provider-3.50.0-62e3401a92489349586f83359276d536ed6c3aa9-integrity/node_modules/@aws-sdk/node-config-provider",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/service-error-classification",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-service-error-classification-3.50.0-a57caec99f3176ac01805841ef54ecb11ec874f9-integrity/node_modules/@aws-sdk/service-error-classification",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ci-info",
+					"version": "3.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ci-info-3.3.0-b4ed1fb6818dea4803a55c623041f9165d2066b2-integrity/node_modules/ci-info",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore",
+					"version": "5.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ignore-5.2.0-6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a-integrity/node_modules/ignore",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@babel/helper-validator-identifier",
+					"version": "7.16.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@babel-helper-validator-identifier-7.16.7-e8c602438c4a8195751243da9031d1607d247cad-integrity/node_modules/@babel/helper-validator-identifier",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@renovatebot/ruby-semver",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@renovatebot-ruby-semver-1.1.2-ffc4d751c41dc7d256858de746f6afdddb87d482-integrity/node_modules/@renovatebot/ruby-semver",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "boolean",
+					"version": "3.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-boolean-3.2.0-9e5294af4e98314494cbb17979fa54ca159f116b-integrity/node_modules/boolean",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tinylogic",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-tinylogic-1.0.3-f15cfc2fb4ea8bb984aa1ddc67081dda2bb2d8e0-integrity/node_modules/tinylogic",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unist-util-stringify-position",
+					"version": "2.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-unist-util-stringify-position-2.0.3-cce3bfa1cdf85ba7375d1d5b17bdc4cada9bd9da-integrity/node_modules/unist-util-stringify-position",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/types",
+					"version": "7.10.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-types-7.10.0-c31e00a53c04bbf926e91c60dbe2f2a15a4212cb-integrity/node_modules/@pnpm/types",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/sha256-js",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-sha256-js-2.0.0-f1f936039bdebd0b9e2dd834d65afdc2aac4efcb-integrity/node_modules/@aws-crypto/sha256-js",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacheable-request",
+					"version": "7.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-cacheable-request-7.0.2-ea0d0b889364a25854757301ca12b2da77f91d27-integrity/node_modules/cacheable-request",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "micromatch",
+					"version": "4.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-micromatch-4.0.5-bc8999a7cbbf77cdc89f132f6e467051b49090c6-integrity/node_modules/micromatch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "3.6.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "traverse",
+					"version": "0.6.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-traverse-0.6.6-cbdf560fd7b9af632502fed40f918c157ea97137-integrity/node_modules/traverse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "vfile",
+					"version": "4.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-vfile-4.2.1-03f1dce28fc625c625bc6514350fbdb00fa9e624-integrity/node_modules/vfile",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fast-xml-parser",
+					"version": "3.19.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fast-xml-parser-3.19.0-cb637ec3f3999f51406dd8ff0e6fc4d83e520d01-integrity/node_modules/fast-xml-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "16.0.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "decamelize-keys",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-decamelize-keys-1.1.0-d171a87933252807eb3cb61dc1c1445d078df2d9-integrity/node_modules/decamelize-keys",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "2.0.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "marshal",
+					"version": "0.5.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-marshal-0.5.3-76f9b3a2e1730619d648cbfade50df2bf939da93-integrity/node_modules/marshal",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-sso",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-sso-3.50.0-ff6380c37ac4fe22e8d9a050ed91029eb7521295-integrity/node_modules/@aws-sdk/credential-provider-sso",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "argparse",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-argparse-2.0.1-246f50f3ca78a3240f6c997e8a9bd1eac49e4b38-integrity/node_modules/argparse",
+					"licenses": [
+						"Python-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-stream",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-stream-2.0.1-fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077-integrity/node_modules/is-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "decamelize",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-decamelize-1.2.0-f6534d15148269b20352e7bee26f501f9a191290-integrity/node_modules/decamelize",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "2.8.9",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-hosted-git-info-2.8.9-dffc0bf9a21c02209090f2aa69429e1414daf3f9-integrity/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "github-url-from-git",
+					"version": "1.5.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-github-url-from-git-1.5.0-f985fedcc0a9aa579dc88d7aff068d55cc6251a0-integrity/node_modules/github-url-from-git",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hard-rejection",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-hard-rejection-2.1.0-1c6eda5c1685c63942766d79bb40ae773cecd883-integrity/node_modules/hard-rejection",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "2.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-yallist-2.1.2-1c11f9218f076089a47dd512f93c6699a6a81d52-integrity/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "6.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "meow",
+					"version": "8.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-meow-8.1.2-bcbe45bda0ee1729d350c03cffc8395a36c4e897-integrity/node_modules/meow",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "qs",
+					"version": "6.10.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-qs-6.10.3-d6cde1b2ffca87b5aa57889816c5f81535e22e8e-integrity/node_modules/qs",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@my-scope/package-b",
+					"version": "0.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/multirepo/packages/package-b",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.2.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yocto-queue",
+					"version": "0.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-yocto-queue-0.1.0-0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b-integrity/node_modules/yocto-queue",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "meow",
+					"version": "7.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-meow-7.1.1-7c01595e3d337fcb0ec4e8eed1666ea95903d306-integrity/node_modules/meow",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver-compare",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-semver-compare-1.0.0-0dee216a1c941ab37e9efb1788f6afc5ff5537fc-integrity/node_modules/semver-compare",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/querystring-builder",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-querystring-builder-3.50.0-6bae811684658eee845f946e891016121bf550e8-integrity/node_modules/@aws-sdk/querystring-builder",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimalistic-assert",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-minimalistic-assert-1.0.1-2e194de044626d4a10e7f7fbc00ce73e83e4d5c7-integrity/node_modules/minimalistic-assert",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "slash",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-slash-3.0.0-6539be870c165adbd5240220dbe361f1bc4d4634-integrity/node_modules/slash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "git-url-parse",
+					"version": "11.6.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-git-url-parse-11.6.0-c634b8de7faa66498a2b88932df31702c67df605-integrity/node_modules/git-url-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob-parent",
+					"version": "5.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-glob-parent-5.1.2-869832c58034fe68a4093c17dc15e8340d8401c4-integrity/node_modules/glob-parent",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-buffer",
+					"version": "3.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-buffer-3.0.1-9338802a30d3b6605fbe0613e094008ca8c05a13-integrity/node_modules/json-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "uglify-js",
+					"version": "3.15.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-uglify-js-3.15.3-9aa82ca22419ba4c0137642ba0df800cb06e0471-integrity/node_modules/uglify-js",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/abort-controller",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-abort-controller-3.50.0-a5859eba5b5f62bb1a53dd5f2e5aa64d2a10b355-integrity/node_modules/@aws-sdk/abort-controller",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "generic-pool",
+					"version": "3.8.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-generic-pool-3.8.2-aab4f280adb522fdfbdc5e5b64d718d3683f04e9-integrity/node_modules/generic-pool",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "6.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-glob-6.0.4-0f08860f6a155127b2fadd4f9ce24b1aab6e4d22-integrity/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/unist",
+					"version": "2.0.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-unist-2.0.6-250a7b16c3b91f672a24552ec64678eeb1d3a08d-integrity/node_modules/@types/unist",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clipanion",
+					"version": "3.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-clipanion-3.1.0-3e217dd6476bb9236638b07eb4673f7309839819-integrity/node_modules/clipanion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pump",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-pump-3.0.0-b4a2116815bde2f4e1ea602354e8c75565107a64-integrity/node_modules/pump",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "reusify",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-reusify-1.0.4-90da382b1e126efc02146e90845a88db12925d76-integrity/node_modules/reusify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tunnel",
+					"version": "0.0.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-tunnel-0.0.6-72f1314b34a5b192db012324df2cc587ca47f92c-integrity/node_modules/tunnel",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "xmldoc",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-xmldoc-1.1.2-6666e029fe25470d599cd30e23ff0d1ed50466d7-integrity/node_modules/xmldoc",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/node",
+					"version": "17.0.23",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-node-17.0.23-3b41a6e643589ac6442bdbd7a4a3ded62f33f7da-integrity/node_modules/@types/node",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "7.7.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "quick-lru",
+					"version": "5.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-quick-lru-5.1.1-366493e6b3e42a3a6885e2e99d18f80fb7a8c932-integrity/node_modules/quick-lru",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yarn",
+					"version": "1.22.17",
+					"path": "/usr/share/node_modules/yarn",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "kind-of",
+					"version": "6.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-kind-of-6.0.3-07c05034a6c349fa06e24fa35aa76db4580ce4dd-integrity/node_modules/kind-of",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/client-ec2",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-client-ec2-3.50.0-f62592fd274be1d145e5603f369b594c6e78980a-integrity/node_modules/@aws-sdk/client-ec2",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "js-yaml",
+					"version": "3.14.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-js-yaml-3.14.1-dae812fdb3825fa306609a8717383c50c36a0537-integrity/node_modules/js-yaml",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-url",
+					"version": "6.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-parse-url-6.0.0-f5dd262a7de9ec00914939220410b66cff09107d-integrity/node_modules/parse-url",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-indent",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-strip-indent-3.0.0-c32e1cee940b6b3432c771bc2c54bcce73cd3001-integrity/node_modules/strip-indent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-utf8-browser",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-utf8-browser-3.49.0-d98f19098cc8072214237e749e64d41bb88c598d-integrity/node_modules/@aws-sdk/util-utf8-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/parsers",
+					"version": "2.5.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-parsers-2.5.0-adcf364cd451d43145d0838c0d8b6844730896de-integrity/node_modules/@yarnpkg/parsers",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "encoding",
+					"version": "0.1.13",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/encoding",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "luxon",
+					"version": "2.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-luxon-2.3.1-f276b1b53fd9a740a60e666a541a7f6dbed4155a-integrity/node_modules/luxon",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pseudomap",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-pseudomap-1.0.2-f052a28da70e618917ef0a8ac34c1ae5a68286b3-integrity/node_modules/pseudomap",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/util",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-util-2.0.1-976cf619cf85084ca85ec5eb947a6ac6b8b5c98c-integrity/node_modules/@aws-crypto/util",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@breejs/later",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@breejs-later-4.1.0-9246907f46cc9e9c9af37d791ab468d98921bcc1-integrity/node_modules/@breejs/later",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs.realpath",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/fs.realpath",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "get-stream",
+					"version": "5.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-get-stream-5.2.0-4966a1795ee5ace65e706c4b7beb71257d6e22d3-integrity/node_modules/get-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-lambda",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/is-lambda",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "locate-path",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-locate-path-5.0.0-1afba396afd676a6d42504d0a67a3a7eb9f62aa0-integrity/node_modules/locate-path",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@sindresorhus/is",
+					"version": "4.6.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@sindresorhus-is-4.6.0-3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f-integrity/node_modules/@sindresorhus/is",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@szmarczak/http-timer",
+					"version": "4.0.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@szmarczak-http-timer-4.0.6-b4a914bb62e7c272d4e5989fe4440f812ab1d807-integrity/node_modules/@szmarczak/http-timer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "domutils",
+					"version": "2.8.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-domutils-2.8.0-4437def5db6e2d1f5d6ee859bd95ca7d02048135-integrity/node_modules/domutils",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "iconv-lite",
+					"version": "0.6.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/iconv-lite",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-retry",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/promise-retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agentkeepalive",
+					"version": "4.2.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/agentkeepalive",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "domelementtype",
+					"version": "2.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-domelementtype-2.2.0-9a0b6c2782ed6a1c7323d42267183df9bd8b1d57-integrity/node_modules/domelementtype",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-alphabetical",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-alphabetical-1.0.4-9e7d6b94916be22153745d184c298cbf986a686d-integrity/node_modules/is-alphabetical",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mimic-response",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mimic-response-1.0.1-4923538878eef42063cb8a3e3b0798781487ab1b-integrity/node_modules/mimic-response",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "queue-microtask",
+					"version": "1.2.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-queue-microtask-1.2.3-4929228bbc724dfac43e0efb058caf7b6cfb6243-integrity/node_modules/queue-microtask",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/config-resolver",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-config-resolver-3.50.0-3cd7874c535061cd78e34307604557e7c42414e5-integrity/node_modules/@aws-sdk/config-resolver",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/node",
+					"version": "13.13.52",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-node-13.13.52-03c13be70b9031baaed79481c0c0cfb0045e53f7-integrity/node_modules/@types/node",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "character-entities-legacy",
+					"version": "1.1.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-character-entities-legacy-1.1.4-94bc1845dce70a5bb9d2ecc748725661293d8fc1-integrity/node_modules/character-entities-legacy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "3.1.6",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "openpgp",
+					"version": "5.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-openpgp-5.2.1-cc48b25eb7d1b4613a167c9e6def8717eea53429-integrity/node_modules/openpgp",
+					"licenses": [
+						"LGPL-3.0+"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-map-2.1.0-310928feef9c9ecc65b68b17693018a665cea175-integrity/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/protocol-http",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-protocol-http-3.50.0-6a6eefac4b823cb61b4e95e0f161e0bade2754cf-integrity/node_modules/@aws-sdk/protocol-http",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/http-cache-semantics",
+					"version": "4.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-http-cache-semantics-4.0.1-0ea7b61496902b95890dc4c3a116b60cb8dae812-integrity/node_modules/@types/http-cache-semantics",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "4.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ansi-styles-4.3.0-edd803628ae71c04c85ae7a0906edad34b648937-integrity/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "git-up",
+					"version": "4.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-git-up-4.0.5-e7bb70981a37ea2fb8fe049669800a1f9a01d759-integrity/node_modules/git-up",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "side-channel",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-side-channel-1.0.4-efce5c8fdc104ee751b25c58d4290011fa5ea2cf-integrity/node_modules/side-channel",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-yaml-file",
+					"version": "4.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-write-yaml-file-4.2.0-86fca0a297666bf59c40dcd96e16dbdfd17228c2-integrity/node_modules/write-yaml-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-stack",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-stack-3.50.0-66751a9f5fe34ce760600744f0a22b8b00b536cd-integrity/node_modules/@aws-sdk/middleware-stack",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@gar/promisify",
+					"version": "1.1.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/@gar/promisify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/mdast",
+					"version": "3.0.10",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-mdast-3.0.10-4724244a82a4598884cbbe9bcfd73dff927ee8af-integrity/node_modules/@types/mdast",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "auth-header",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-auth-header-1.0.0-ea24fdc5588e1eb8b750df8655a396aa48fc9076-integrity/node_modules/auth-header",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "humanize-ms",
+					"version": "1.2.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/humanize-ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nth-check",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-nth-check-2.0.1-2efe162f5c3da06a28959fbd3db75dbeea9f0fc2-integrity/node_modules/nth-check",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@kwsites/file-exists",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@kwsites-file-exists-1.1.1-ad1efcac13e1987d8dbaf235ef3be5b0d96faa99-integrity/node_modules/@kwsites/file-exists",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "azure-devops-node-api",
+					"version": "11.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-azure-devops-node-api-11.1.1-dd1356031fa4e334e016732594e8fee0f68268c4-integrity/node_modules/azure-devops-node-api",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "get-intrinsic",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-get-intrinsic-1.1.1-15f59f376f855c446963948f0d24cd3637b4abc6-integrity/node_modules/get-intrinsic",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "4.2.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/string-width",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/compare",
+					"version": "1.3.34",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-compare-1.3.34-321e10780955b18a4bcf7876d0fe0323be9d7be8-integrity/node_modules/@thi.ng/compare",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "decompress-response",
+					"version": "6.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-decompress-response-6.0.0-ca387612ddb7e104bd16d85aab00d5ecf09c66fc-integrity/node_modules/decompress-response",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "1.4.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-minipass-fetch-1.4.1-d75e0091daac1b0ffd7e9d41629faff7d0c1f1b6-integrity/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/humanize-ms/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "repeat-string",
+					"version": "1.6.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637-integrity/node_modules/repeat-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yargs-parser",
+					"version": "20.2.9",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-yargs-parser-20.2.9-2eb7dc3b0289718fc295f362753845c41a0c94ee-integrity/node_modules/yargs-parser",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-serde",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-serde-3.50.0-a092a52aaceec02e81d30241ae8d8c43ed5452c3-integrity/node_modules/@aws-sdk/middleware-serde",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "3.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "3.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-normalize-package-data-3.0.3-dbcc3e2da59509a0983422884cd172eefdfa525e-integrity/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "6.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-preserve-symlinks-flag",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-supports-preserve-symlinks-flag-1.0.0-6eda4bd344a3c94aea376d4cc31bc77311039e09-integrity/node_modules/supports-preserve-symlinks-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unist-util-is",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-unist-util-is-4.1.0-976e5f462a7a5de73d94b706bac1b90671b57797-integrity/node_modules/unist-util-is",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "typedarray-to-buffer",
+					"version": "3.1.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-typedarray-to-buffer-3.1.5-a97ee7a9ff42691b9f783ff1bc5112fe3fca9080-integrity/node_modules/typedarray-to-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "any-promise",
+					"version": "1.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-any-promise-1.3.0-abc6afeedcea52e809cdc0376aed3ce39635d17f-integrity/node_modules/any-promise",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "min-indent",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-min-indent-1.0.1-a63f681673b30571fbe8bc25686ae746eefa9869-integrity/node_modules/min-indent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-key",
+					"version": "3.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-path-key-3.1.1-581f6ade658cbba65a0d3380de7753295054f375-integrity/node_modules/path-key",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "2.4.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-rimraf-2.4.5-ee710ce5d93a8fdb856fb5ea8ff0e2d75934b2da-integrity/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-correct",
+					"version": "3.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-spdx-correct-3.1.1-dece81ac9c1e6713e5f7d1b6f17d468fa53d89a9-integrity/node_modules/spdx-correct",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/hash-node",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-hash-node-3.50.0-b700755f0c2f19f13ac98ca4d3a2be5272475f7f-integrity/node_modules/@aws-sdk/hash-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-base64-browser",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-base64-browser-3.49.0-372ec36c7c8a37c3e79b6af0dc62453c57e6d343-integrity/node_modules/@aws-sdk/util-base64-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "extract-zip",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-extract-zip-2.0.1-663dca56fe46df890d5f131ef4a06d22bb8ba13a-integrity/node_modules/extract-zip",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.3.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-once-1.3.3-b2e261557ce4c314ec8304f3fa82663e4297ca20-integrity/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "remark",
+					"version": "13.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-remark-13.0.0-d15d9bf71a402f40287ebe36067b66d54868e425-integrity/node_modules/remark",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sigmund",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sigmund-1.0.1-3ff21f198cad2175f9f3b781853fd94d0d19b590-integrity/node_modules/sigmund",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sprintf-js",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sprintf-js-1.1.2-da1765262bf8c0f571749f2ad6c26300207ae673-integrity/node_modules/sprintf-js",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "stream-buffers",
+					"version": "3.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-stream-buffers-3.0.2-5249005a8d5c2d00b3a32e6e0a6ea209dc4f3521-integrity/node_modules/stream-buffers",
+					"licenses": [
+						"Unlicense"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-node",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-node-3.50.0-2c7078460f424369a6c87183c03d5fdf7a355531-integrity/node_modules/@aws-sdk/credential-provider-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aproba",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/aproba",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "arrify",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-arrify-1.0.1-898508da2226f380df904728456849c1501a4b0d-integrity/node_modules/arrify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "error-ex",
+					"version": "1.3.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-error-ex-1.3.2-b4ac40648107fdcdcfae242f428bea8a14d4f1bf-integrity/node_modules/error-ex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-hexadecimal",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-hexadecimal-1.0.4-cc35c97588da4bd49a8eedd6bc4082d44dcb23a7-integrity/node_modules/is-hexadecimal",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-link-header",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-parse-link-header-2.0.0-949353e284f8aa01f2ac857a98f692b57733f6b7-integrity/node_modules/parse-link-header",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/read-project-manifest",
+					"version": "2.0.13",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-read-project-manifest-2.0.13-0fec7dbf25e95ae1aa6dfe926b2435ab34cba857-integrity/node_modules/@pnpm/read-project-manifest",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/fslib",
+					"version": "2.6.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-fslib-2.6.1-20959bc8b04e67cb06ce9cd4f5bd92aa0ca24212-integrity/node_modules/@yarnpkg/fslib",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "defer-to-connect",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-defer-to-connect-2.0.1-8016bdb4143e4632b77a3449c6236277de520587-integrity/node_modules/defer-to-connect",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "remark-stringify",
+					"version": "9.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-remark-stringify-9.0.1-576d06e910548b0a7191a71f27b33f1218862894-integrity/node_modules/remark-stringify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "roarr",
+					"version": "2.15.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-roarr-2.15.4-f5fe795b7b838ccfe35dc608e0282b9eba2e7afd-integrity/node_modules/roarr",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "typed-rest-client",
+					"version": "1.8.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-typed-rest-client-1.8.6-d8facd6abd98cbd8ad14cccf056ca5cc306919d7-integrity/node_modules/typed-rest-client",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wordwrap",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-wordwrap-1.0.0-27584810891456a4171c8d0226441ade90cbcaeb-integrity/node_modules/wordwrap",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "deepmerge",
+					"version": "4.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-deepmerge-4.2.2-44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955-integrity/node_modules/deepmerge",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-extra",
+					"version": "10.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fs-extra-10.0.1-27de43b4320e833f6867cc044bfce29fdf0ef3b8-integrity/node_modules/fs-extra",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "git-raw-commits",
+					"version": "2.0.11",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-git-raw-commits-2.0.11-bc3576638071d18655e1cc60d7f524920008d723-integrity/node_modules/git-raw-commits",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lowercase-keys",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-lowercase-keys-2.0.0-2603e78b7b4b0006cbca2fbcc8a3202558ac9479-integrity/node_modules/lowercase-keys",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "invalid_main",
+					"version": "",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/invalid_main"
+				},
+				{
+					"type": "nodejs",
+					"name": "safer-buffer",
+					"version": "2.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/safer-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-ini",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-ini-3.50.0-64e20416729980f4772f7f95abe6ab21058b6465-integrity/node_modules/@aws-sdk/credential-provider-ini",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "extend",
+					"version": "3.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-extend-3.0.2-f8b1136b4071fbd8eb140aff858b1019ec2915fa-integrity/node_modules/extend",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "graceful-fs",
+					"version": "4.2.9",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/graceful-fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sax",
+					"version": "1.2.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sax-1.2.4-2816234e2378bddc4e5354fab5caa895df7100d9-integrity/node_modules/sax",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-signing",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-signing-3.50.0-c2cf8fdbd810fbce6ee7f5a5e80197f18ebf3526-integrity/node_modules/@aws-sdk/middleware-signing",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/errors",
+					"version": "1.3.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-errors-1.3.4-8f7675f7a895a87f0f609d64db69bc04483e0b29-integrity/node_modules/@thi.ng/errors",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dtrace-provider",
+					"version": "0.8.8",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-dtrace-provider-0.8.8-2996d5490c37e1347be263b423ed7b297fb0d97e-integrity/node_modules/dtrace-provider",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-symbols",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-has-symbols-1.0.3-bb7b2c4349251dce87b125f7bdf874aa7c8b39f8-integrity/node_modules/has-symbols",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "2.4.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-chalk-2.4.2-cd42541677a54333cf541a49108c1432b44c9424-integrity/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-plain-obj",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-plain-obj-2.1.0-45e42e37fccf1f40da8e5f76ee21515840c09287-integrity/node_modules/is-plain-obj",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "renovate",
+					"version": "32.10.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-renovate-32.10.2-e8ca168acaa67866a6594f8a68161288fb537b94-integrity/node_modules/renovate",
+					"licenses": [
+						"AGPL-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "trim-newlines",
+					"version": "3.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-trim-newlines-3.0.1-260a5d962d8b752425b32f3a7db0dcacd176c144-integrity/node_modules/trim-newlines",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "7.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-supports-color-7.2.0-1b7dcdcb32b8138801b3e478ba6a51caa89648da-integrity/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-body-length-node",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-body-length-node-3.49.0-572201e3669cfed98917763a3f099bf0a34ce1a6-integrity/node_modules/@aws-sdk/util-body-length-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/shell",
+					"version": "3.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-shell-3.2.0-b222e084e2291873118ba65e4676461738a47dc4-integrity/node_modules/@yarnpkg/shell",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "boolbase",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-boolbase-1.0.0-68dff5fbe60c51eb37725ea9e3ed310dcc1e776e-integrity/node_modules/boolbase",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "character-entities",
+					"version": "1.2.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-character-entities-1.2.4-e12c3939b7eaf4e5b15e7ad4c5e28e1d48c5b16b-integrity/node_modules/character-entities",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-path",
+					"version": "4.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-parse-path-4.0.3-82d81ec3e071dcc4ab49aa9f2c9c0b8966bb22bf-integrity/node_modules/parse-path",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "query-string",
+					"version": "6.14.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-query-string-6.14.1-7ac2dca46da7f309449ba0f86b1fd28255b0c86a-integrity/node_modules/query-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "5.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bail",
+					"version": "1.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-bail-1.0.5-b6fa133404a392cbc1f8c4bf63f5953351e7a776-integrity/node_modules/bail",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-arrayish",
+					"version": "0.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-arrayish-0.2.1-77c99840527aa8ecb1a8ba697b80645a7a926a9d-integrity/node_modules/is-arrayish",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-collect",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass-collect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "1to2",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-nan-2.15.0-3f34a473ff18e15c1b5626b62903b5ad6e665fee-integrity/node_modules/nan/tools",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "crypto-random-string",
+					"version": "3.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-crypto-random-string-3.3.1-13cee94cac8001e4842501608ef779e0ed08f82d-integrity/node_modules/crypto-random-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "retry",
+					"version": "0.12.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "shebang-command",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-shebang-command-2.0.0-ccd0af4f8835fbdc265b82461aaf0c36663f34ea-integrity/node_modules/shebang-command",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "3.0.7",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "simple-git",
+					"version": "3.4.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-simple-git-3.4.0-dea49dfafbc16a67b26221917fca1caaeb976e4a-integrity/node_modules/simple-git",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "split2",
+					"version": "3.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-split2-3.2.2-bf2cf2a37d838312c249c89206fd7a17dd12365f-integrity/node_modules/split2",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/semver",
+					"version": "7.3.9",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-semver-7.3.9-152c6c20a7688c30b967ec1841d31ace569863fc-integrity/node_modules/@types/semver",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "buffer-crc32",
+					"version": "0.2.13",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-buffer-crc32-0.2.13-0d333e3f00eac50aa1454abd30ef8c2a5d9a7242-integrity/node_modules/buffer-crc32",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dequal",
+					"version": "2.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-dequal-2.0.2-85ca22025e3a87e65ef75a7a437b35284a7e319d-integrity/node_modules/dequal",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "linkify-it",
+					"version": "3.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-linkify-it-3.0.3-a98baf44ce45a550efb4d49c769d07524cc2fa2e-integrity/node_modules/linkify-it",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-safe-buffer-5.1.2-991ec69d296e0313747d59bdfd2b745c35f8828d-integrity/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pretty-bytes",
+					"version": "5.6.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-pretty-bytes-5.6.0-356256f643804773c82f64723fe78c92c62beaeb-integrity/node_modules/pretty-bytes",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "2.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-locate-window",
+					"version": "3.55.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-locate-window-3.55.0-a4136a20ee1bfcb73967a6614caf769ef79db070-integrity/node_modules/@aws-sdk/util-locate-window",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/client",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-client-1.0.4-fe185750df3bcc07524f63fe8dbc8d14d22d6cbb-integrity/node_modules/@node-redis/client",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/hex",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-hex-1.0.4-5c5c86d3aef0422709b4aa8cfadd3b3f01a4a808-integrity/node_modules/@thi.ng/hex",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/normalize-package-data",
+					"version": "2.4.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-normalize-package-data-2.4.1-d3357479a0fdfdd5907fe67e17e0a85c906e1301-integrity/node_modules/@types/normalize-package-data",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "array-union",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-array-union-2.1.0-b798420adbeb1de828d84acd8a2e23d3efe85e8d-integrity/node_modules/array-union",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "js-yaml",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-js-yaml-4.1.0-c1fb65f8f5017901cdd2c951864ba18458a10602-integrity/node_modules/js-yaml",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-sdk-ec2",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-sdk-ec2-3.50.0-fbd9b560a44ca0e5786d3244482eca73f17a7ad6-integrity/node_modules/@aws-sdk/middleware-sdk-ec2",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "changelog-filename-regex",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-changelog-filename-regex-2.0.1-88944bd89a076fc572c0ab6b4a4f2bc2572ac02d-integrity/node_modules/changelog-filename-regex",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-stringify-pretty-compact",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-stringify-pretty-compact-3.0.0-f71ef9d82ef16483a407869556588e91b681d9ab-integrity/node_modules/json-stringify-pretty-compact",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "serialize-error",
+					"version": "7.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-serialize-error-7.0.1-f1360b0447f61ffb483ec4157c737fab7d778e18-integrity/node_modules/serialize-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-license-ids",
+					"version": "3.0.11",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-spdx-license-ids-3.0.11-50c0d8c40a14ec1bf449bae69a0ea4685a9d9f95-integrity/node_modules/spdx-license-ids",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "global-agent",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-global-agent-3.0.0-ae7cd31bd3583b93c5a16437a1afe27cc33a1ab6-integrity/node_modules/global-agent",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-extglob",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-extglob-2.1.1-a88c02535791f02ed37c76a1b9ea9773c833f8c2-integrity/node_modules/is-extglob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "markdown-table",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-markdown-table-2.0.0-194a90ced26d31fe753d8b9434430214c011865b-integrity/node_modules/markdown-table",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "quick-lru",
+					"version": "4.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-quick-lru-4.0.1-5b8878f113a58217848c6482026c73e1ba57727f-integrity/node_modules/quick-lru",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "uuid",
+					"version": "8.3.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-uuid-8.3.2-80d5b5ced271bb9af6c445f21a1a04c606cefbe2-integrity/node_modules/uuid",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "got",
+					"version": "11.8.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-got-11.8.3-f496c8fdda5d729a90b4905d2b07dbd148170770-integrity/node_modules/got",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdast-util-find-and-replace",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdast-util-find-and-replace-1.1.1-b7db1e873f96f66588c321f1363069abf607d1b5-integrity/node_modules/mdast-util-find-and-replace",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdurl",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdurl-1.0.1-fe85b2ec75a59037f2adfec100fd6c601761152e-integrity/node_modules/mdurl",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "through2",
+					"version": "2.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-through2-2.0.5-01c1e39eb31d07cb7d03a96a70823260b23132cd-integrity/node_modules/through2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clone-response",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-clone-response-1.0.2-d1dc973920314df67fbeb94223b4ee350239e96b-integrity/node_modules/clone-response",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "esprima",
+					"version": "4.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71-integrity/node_modules/esprima",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-callable",
+					"version": "1.2.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-callable-1.2.4-47301d58dd0259407865547853df6d61fe471945-integrity/node_modules/is-callable",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "klona",
+					"version": "2.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-klona-2.0.5-d166574d90076395d9963aa7a928fabb8d76afbc-integrity/node_modules/klona",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "remark-parse",
+					"version": "9.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-remark-parse-9.0.0-4d20a299665880e4f4af5d90b7c7b8a935853640-integrity/node_modules/remark-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "source-map",
+					"version": "0.6.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-source-map-0.6.1-74722af32e9614e9c287a8d0bbde48b5e2f1a263-integrity/node_modules/source-map",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "escape-string-regexp",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-escape-string-regexp-4.0.0-14ba83a5d373e3d311e5afca29cf5bfad965bf34-integrity/node_modules/escape-string-regexp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-number",
+					"version": "7.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-number-7.0.0-7535345b896734d5f80c4d06c50955527a14f12b-integrity/node_modules/is-number",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/ie11-detection",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-ie11-detection-2.0.0-bb6c2facf8f03457e949dcf0921477397ffa4c6e-integrity/node_modules/@aws-crypto/ie11-detection",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/api",
+					"version": "7.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-api-7.2.0-ed3d7c70aca157a8f53613f7359be7d2e31d6f18-integrity/node_modules/@thi.ng/api",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "handlebars",
+					"version": "4.7.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-handlebars-4.7.7-9ce33416aad02dbd6c8fafa8240d5d98004945a1-integrity/node_modules/handlebars",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-hex-encoding",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-hex-encoding-3.49.0-04d153679a1b14b2fecb4c38175d79b4a8fa8002-integrity/node_modules/@aws-sdk/util-hex-encoding",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-uri-escape",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-uri-escape-3.49.0-190d7cce32ffa44e1fc6e02b0a59c65a8954bbb3-integrity/node_modules/@aws-sdk/util-uri-escape",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/json",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-json-1.0.2-8ad2d0f026698dc1a4238cc3d1eb099a3bee5ab8-integrity/node_modules/@node-redis/json",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "decode-uri-component",
+					"version": "0.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-decode-uri-component-0.2.0-eb3913333458775cb84cd1a1fae062106bb87545-integrity/node_modules/decode-uri-component",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mv",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mv-2.1.1-ae6ce0d6f6d5e0a4f7d893798d03c1ea9559b6a2-integrity/node_modules/mv",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "through2",
+					"version": "4.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-through2-4.0.2-a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764-integrity/node_modules/through2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@renovatebot/pep440",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@renovatebot-pep440-2.1.1-fb1affdcfcc7d9e8c6f46a817d9cb4f741acbc28-integrity/node_modules/@renovatebot/pep440",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aggregate-error",
+					"version": "3.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/aggregate-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "asn1.js",
+					"version": "5.4.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-asn1-js-5.4.1-11a980b84ebb91781ce35b0fdc2ee294e3783f07-integrity/node_modules/asn1.js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clean-git-ref",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-clean-git-ref-2.0.1-dcc0ca093b90e527e67adb5a5e55b1af6816dcd9-integrity/node_modules/clean-git-ref",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "find-up",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-find-up-5.0.0-4c92819ecb7083561e4f4a240a86be5198f536fc-integrity/node_modules/find-up",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "7.3.5",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-content-length",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-content-length-3.50.0-25e5d2996f2118c66a4c59ea4ead014c46405388-integrity/node_modules/@aws-sdk/middleware-content-length",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "map-obj",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-map-obj-1.0.1-d933ceb9205d82bdcf4886f6742bdc2b4dea146d-integrity/node_modules/map-obj",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-inflight",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/promise-inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "micromark",
+					"version": "2.11.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-micromark-2.11.4-d13436138eea826383e822449c9a5c50ee44665a-integrity/node_modules/micromark",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pluralize",
+					"version": "7.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-pluralize-7.0.0-298b89df8b93b0221dbf421ad2b1b1ea23fc6777-integrity/node_modules/pluralize",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "shebang-regex",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-shebang-regex-3.0.0-ae16f1644d873ecad843b0307b143362d4c42172-integrity/node_modules/shebang-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/minimist",
+					"version": "1.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-minimist-1.2.2-ee771e2ba4b3dc5b372935d549fd9617bf345b8c-integrity/node_modules/@types/minimist",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/responselike",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-responselike-1.0.0-251f4fe7d154d2bad125abe1b429b23afd262e29-integrity/node_modules/@types/responselike",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/pnp",
+					"version": "3.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-pnp-3.2.0-e468b28667abc2c7d50bb6230c86847ea605f0ce-integrity/node_modules/@yarnpkg/pnp",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "call-bind",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-call-bind-1.0.2-b1d4e89e688119c3c9a903ad30abb2f6a919be3c-integrity/node_modules/call-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "end-of-stream",
+					"version": "1.4.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-end-of-stream-1.4.4-5ae64a5f45057baf3626ec14da0ca5e4b2431eb0-integrity/node_modules/end-of-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver-stable",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-semver-stable-3.0.0-6e783a40ea6483ac0aa4ee05ddeb272f451f01ac-integrity/node_modules/semver-stable",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-cache-semantics",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/http-cache-semantics",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "object-inspect",
+					"version": "1.12.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-object-inspect-1.12.0-6e2c120e868fd1fd18cb4f18c31741d0d6e776f0-integrity/node_modules/object-inspect",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-expression-parse",
+					"version": "3.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-spdx-expression-parse-3.0.1-cf70f50482eefdc98e3ce0a6833e4a53ceeba679-integrity/node_modules/spdx-expression-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/json-proxy",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-json-proxy-2.1.1-47866706061e9bdb15b0d199f6f08dde655bf569-integrity/node_modules/@yarnpkg/json-proxy",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "6.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/semver/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emojibase-regex",
+					"version": "6.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-emojibase-regex-6.0.1-dc0b33d05c02f045ea44795d453698b205d41f0f-integrity/node_modules/emojibase-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "object-keys",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-object-keys-1.1.1-1c47f272df277f3b1daf061677d9c82e2322c60e-integrity/node_modules/object-keys",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-yaml-file",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-read-yaml-file-2.1.0-c5866712db9ef5343b4d02c2413bada53c41c4a9-integrity/node_modules/read-yaml-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "character-reference-invalid",
+					"version": "1.1.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-character-reference-invalid-1.1.4-083329cda0eae272ab3dbbf37e9a382c13af1560-integrity/node_modules/character-reference-invalid",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdast-util-to-markdown",
+					"version": "0.6.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdast-util-to-markdown-0.6.5-b33f67ca820d69e6cc527a93d4039249b504bebe-integrity/node_modules/mdast-util-to-markdown",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ncp",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ncp-2.0.0-195a21d6c46e361d2fb1281ba38b91e9df7bdbb3-integrity/node_modules/ncp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-deferred",
+					"version": "2.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-promise-deferred-2.0.3-b99c9588820798501862a593d49cece51d06fd7f-integrity/node_modules/promise-deferred",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-file-atomic",
+					"version": "3.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-write-file-atomic-3.0.3-56bd5c5a5c70481cd19c571bd39ab965a5de56e8-integrity/node_modules/write-file-atomic",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@babel/code-frame",
+					"version": "7.16.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@babel-code-frame-7.16.7-44416b6bd7624b998f5b1af5d470856c40138789-integrity/node_modules/@babel/code-frame",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "4.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-chalk-4.1.2-aac4e2b7734a740867aeb16bf02aad556a1e7a01-integrity/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-finally",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-finally-1.0.0-3fbcfb15b899a44123b34b6dcc18b724336a2cae-integrity/node_modules/p-finally",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "builtins",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-builtins-1.0.3-cb94faeb61c8696451db36534e1422f94f0aee88-integrity/node_modules/builtins",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "4.0.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimist-options",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-minimist-options-4.1.0-c0655713c53a8a2ebd77ffa247d342c40f010619-integrity/node_modules/minimist-options",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/checks",
+					"version": "2.9.11",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-checks-2.9.11-b7e4c78828f553613d2af025ce7ae3f9306f27bb-integrity/node_modules/@thi.ng/checks",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "end-of-stream",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-end-of-stream-1.1.0-e9353258baa9108965efc41cb0ef8ade2f3cfb07-integrity/node_modules/end-of-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "set-blocking",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/set-blocking",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yargs-parser",
+					"version": "18.1.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-yargs-parser-18.1.3-be68c4975c6b2abf469236b0c870362fab09a7b0-integrity/node_modules/yargs-parser",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/yauzl",
+					"version": "2.9.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-yauzl-2.9.2-c48e5d56aff1444409e39fa164b0b4d4552a7b7a-integrity/node_modules/@types/yauzl",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-json",
+					"version": "5.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-parse-json-5.2.0-c76fc66dee54231c962b22bcc8a72cf2f99753cd-integrity/node_modules/parse-json",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "treeify",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-treeify-1.1.0-4e31c6a463accd0943879f30667c4fdaff411bb8-integrity/node_modules/treeify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "type-fest",
+					"version": "0.8.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-type-fest-0.8.1-09e249ebde851d3b1e48d27c105444667f17b83d-integrity/node_modules/type-fest",
+					"licenses": [
+						"(MIT OR CC0-1.0)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "vfile-message",
+					"version": "2.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-vfile-message-2.0.4-5b43b88171d409eae58477d13f23dd41d52c371a-integrity/node_modules/vfile-message",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/client-sts",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-client-sts-3.50.0-3a9102060018b6c8bc8d7e8d0813039898e92eed-integrity/node_modules/@aws-sdk/client-sts",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/smithy-client",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-smithy-client-3.50.0-4f39ff6804d0ade852e8a922e7c3202fee81206e-integrity/node_modules/@aws-sdk/smithy-client",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bn.js",
+					"version": "4.12.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-bn-js-4.12.0-775b3f278efbb9718eec7361f483fb36fbbfea88-integrity/node_modules/bn.js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dir-glob",
+					"version": "3.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-dir-glob-3.0.1-56dbf73d992a4a93ba1584f4534063fd2e41717f-integrity/node_modules/dir-glob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "4.1.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-lru-cache-4.1.5-8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd-integrity/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "negotiator",
+					"version": "0.6.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/negotiator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-buffer-from",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-buffer-from-3.49.0-128a44f94d4e4676461d441e4da81be94a5c17fc-integrity/node_modules/@aws-sdk/util-buffer-from",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "balanced-match",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/balanced-match",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "css-what",
+					"version": "6.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-css-what-6.0.1-3be33be55b9f302f710ba3a9c3abc1e2a63fc7eb-integrity/node_modules/css-what",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "function-bind",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-function-bind-1.1.1-a56899d3ea3c9bab874bb9773b7c5ede92f4895d-integrity/node_modules/function-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "globby",
+					"version": "11.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-globby-11.1.0-bd4be98bb042f83d796f7e3811991fbe82a0d34b-integrity/node_modules/globby",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-windows",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-windows-1.0.2-d1850eb9791ecd18e6182ce12a30f396634bb19d-integrity/node_modules/is-windows",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "responselike",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-responselike-2.0.0-26391bcc3174f750f9a79eacc40a12a5c42d7723-integrity/node_modules/responselike",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tar",
+					"version": "6.1.11",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/tar",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-utf8-node",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-utf8-node-3.49.0-f1ae484e949de248278cdfa11df09287129a124e-integrity/node_modules/@aws-sdk/util-utf8-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "entities",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-entities-2.1.0-992d3129cf7df6870b96c57858c249a120f8b8b5-integrity/node_modules/entities",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mimic-response",
+					"version": "3.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mimic-response-3.1.0-2d1d59af9c1b129815accc2c46a022a5ce1fa3c9-integrity/node_modules/mimic-response",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/types",
+					"version": "3.55.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-types-3.55.0-d524d567e2b2722f2d6be83e2417dd6d46ce1490-integrity/node_modules/@aws-sdk/types",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-format-url",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-format-url-3.50.0-f319677c2dfe6134a10dcf48c745c92b2b61e935-integrity/node_modules/@aws-sdk/util-format-url",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "1.1.11",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-retry",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-retry-3.50.0-22eaa88957491f811b1d779edde2c80d2a5df7b2-integrity/node_modules/@aws-sdk/middleware-retry",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clipanion",
+					"version": "3.2.0-rc.10",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-clipanion-3.2.0-rc.10-d1a288c71659decd3fc7ff72e100198c082d8748-integrity/node_modules/clipanion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sprintf-js",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sprintf-js-1.0.3-04e6926f662895354f3dd015203633b857297e2c-integrity/node_modules/sprintf-js",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "xtend",
+					"version": "4.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-xtend-4.0.2-bb72779f5fa465186b1f438f674fa347fdb5db54-integrity/node_modules/xtend",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/client-sso",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-client-sso-3.50.0-a027da9fb9a30021eb2909e2ba521efb397716bb-integrity/node_modules/@aws-sdk/client-sso",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-support",
+					"version": "1.1.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/color-support",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ini",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ini-2.0.0-e5fd556ecdd5726be978fa1001862eacb0a94bc5-integrity/node_modules/ini",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-file-plus",
+					"version": "3.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-file-plus-3.3.1-f4363806b82819ff8803d83d539d6a9edd2a5258-integrity/node_modules/json-file-plus",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tslib",
+					"version": "2.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-tslib-2.3.1-e8a335add5ceae51aa261d32a490158ef042ef01-integrity/node_modules/tslib",
+					"licenses": [
+						"0BSD"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "upath",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-upath-2.0.1-50c73dea68d6f6b990f51d279ce6081665d61a8b-integrity/node_modules/upath",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/fetch-http-handler",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-fetch-http-handler-3.50.0-06b6b48c7980dbfa9cf793ab0417b413ad0df433-integrity/node_modules/@aws-sdk/fetch-http-handler",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-user-agent-node",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-user-agent-node-3.50.0-679afba8e2f1aa8146a70d407a4500c1b5aaca63-integrity/node_modules/@aws-sdk/util-user-agent-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/zipper",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-zipper-1.0.3-705ce30a4391eac658d3d4ce6ffdd75919f72bbc-integrity/node_modules/@thi.ng/zipper",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-entities",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-parse-entities-2.0.0-53c6eb5b9314a1f4ec99fa0fdf7ce01ecda0cbe8-integrity/node_modules/parse-entities",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "uc.micro",
+					"version": "1.0.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-uc-micro-1.0.6-9c411a802a409a91fc6cf74081baba34b24499ac-integrity/node_modules/uc.micro",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-defaults-mode-node",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-defaults-mode-node-3.50.0-273f7eb8c1ff6477d23995aa3a54e422f9244839-integrity/node_modules/@aws-sdk/util-defaults-mode-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@nodelib/fs.walk",
+					"version": "1.2.8",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@nodelib-fs-walk-1.2.8-e95737e8bb6746ddedf69c556953494f196fe69a-integrity/node_modules/@nodelib/fs.walk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "concat-map",
+					"version": "0.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/concat-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "depd",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/depd",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jsonfile",
+					"version": "6.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-jsonfile-6.1.0-bc55b2634793c679ec6403094eb13698a6ec0aae-integrity/node_modules/jsonfile",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-env",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-env-3.50.0-923d014d14462566f1592878193d9adcbc53d621-integrity/node_modules/@aws-sdk/credential-provider-env",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-base64-node",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-base64-node-3.49.0-ac76df845ae90ca3580b8d95e9e990ec46e1b9ff-integrity/node_modules/@aws-sdk/util-base64-node",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-type",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-path-type-4.0.0-84ed01c0a7ba380afe09d90a8c180dcd9d03043b-integrity/node_modules/path-type",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mylib",
+					"version": "0.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/nested_symlinks/mylib",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "slugify",
+					"version": "1.6.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-slugify-1.6.5-c8f5c072bf2135b80703589b39a3d41451fbe8c8-integrity/node_modules/slugify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-imds",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-imds-3.50.0-348effdebeff5eb49ad8cceee83b2dd1876010c4-integrity/node_modules/@aws-sdk/credential-provider-imds",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/random",
+					"version": "2.4.8",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-random-2.4.8-428950e501c5a76907e3e6cb93985db07322012e-integrity/node_modules/@thi.ng/random",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fast-deep-equal",
+					"version": "3.1.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fast-deep-equal-3.1.3-3a7d56b559d6cbc3eb512325244e619a65c6c525-integrity/node_modules/fast-deep-equal",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fast-glob",
+					"version": "3.2.11",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fast-glob-3.2.11-a1172ad95ceb8a16e20caa5c5e56480e5129c1d9-integrity/node_modules/fast-glob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "7.2.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "matcher",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-matcher-3.0.0-bd9060f4c5b70aa8041ccc6f80368760994f30ca-integrity/node_modules/matcher",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "browser_field",
+					"version": "",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/browser_field"
+				},
+				{
+					"type": "nodejs",
+					"name": "url-join",
+					"version": "4.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-url-join-4.0.1-b642e21a2646808ffa178c4c5fda39844e12cde7-integrity/node_modules/url-join",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-exceptions",
+					"version": "2.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-spdx-exceptions-2.3.0-3f28ce1a77a00372683eade4a433183527a2163d-integrity/node_modules/spdx-exceptions",
+					"licenses": [
+						"CC-BY-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/treeify",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-treeify-1.0.0-f04743cb91fc38254e8585d692bd92503782011c-integrity/node_modules/@types/treeify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "3.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-color-convert-2.0.1-72d3a68d598c9bdb3af2ad1e84f21d896abd4de3-integrity/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "es6-error",
+					"version": "4.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-es6-error-4.1.1-9e3af407459deed47e9a91f9b885a84eb05c561d-integrity/node_modules/es6-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "eventemitter3",
+					"version": "4.0.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-eventemitter3-4.0.7-2de9b68f6528d5644ef5c59526a1b4a07306169f-integrity/node_modules/eventemitter3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promiseback",
+					"version": "2.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-promiseback-2.0.3-bd468d86930e8cd44bfc3292de9a6fbafb6378e6-integrity/node_modules/promiseback",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fastq",
+					"version": "1.13.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fastq-1.13.0-616760f88a7526bdfc596b7cab8c18938c36b98c-integrity/node_modules/fastq",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-try",
+					"version": "2.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-try-2.2.0-cb2868540e313d61de58fafbe35ce9004d5540e6-integrity/node_modules/p-try",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver-utils",
+					"version": "1.1.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-semver-utils-1.1.4-cf0405e669a57488913909fc1c3f29bf2a4871e2-integrity/node_modules/semver-utils",
+					"licenses": [
+						"APACHEv2"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "underscore",
+					"version": "1.13.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-underscore-1.13.2-276cea1e8b9722a8dbed0100a407dda572125881-integrity/node_modules/underscore",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/constants",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-constants-5.0.0-52f4d14d1ec3accd397b9e49eef377d0d39020e6-integrity/node_modules/@pnpm/constants",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "10.1.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "9.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-make-fetch-happen-9.1.0-53085a09e7971433e6765f7971bf63f4e05cb968-integrity/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-pkg-up",
+					"version": "7.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-read-pkg-up-7.0.1-f3a6135758459733ae2b95638056e1854e7ef507-integrity/node_modules/read-pkg-up",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "resolve",
+					"version": "1.22.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/node-http-handler",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-node-http-handler-3.50.0-55c001ac665daf6665eed1e60d2b6fb24ed490fc-integrity/node_modules/@aws-sdk/node-http-handler",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "camelcase-keys",
+					"version": "6.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-camelcase-keys-6.2.2-5e755d6ba51aa223ec7d3d52f25778210f9dc3c0-integrity/node_modules/camelcase-keys",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-chalk-3.0.0-3f73c2bf526591f574cc492c51e2456349f844e4-integrity/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "10.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-emoji-regex-10.0.1-77180edb279b99510a21b79b19e1dc283d8f3991-integrity/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip",
+					"version": "1.1.5",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/ip",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dargs",
+					"version": "7.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-dargs-7.0.0-04015c41de0bcb69ec84050f3d9be0caf8d6d5cc-integrity/node_modules/dargs",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-limit",
+					"version": "3.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-limit-3.1.0-e1daccbe78d0d1388ca18c64fea38e3e57e3706b-integrity/node_modules/p-limit",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "5.7.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-semver-5.7.1-a954f931aeba508d307bbf069eff0c01c96116f7-integrity/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "2.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-web-identity",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-web-identity-3.50.0-a54786f052578aaf4ec1d25cc16e14daa61a2413-integrity/node_modules/@aws-sdk/credential-provider-web-identity",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "indent-string",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/indent-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks",
+					"version": "2.6.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/socks",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-locate",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-locate-5.0.0-83c8315c6785005e3bd021839411c9e110e6d834-integrity/node_modules/p-locate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@npmcli-fs-1.1.1-72f719fe935e687c56a4faecf3c03d06ba593257-integrity/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-color-name-1.1.3-a7d0558bd89c42f795dd42328f740831ca53bc25-integrity/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cross-spawn",
+					"version": "7.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-cross-spawn-7.0.3-f73a85b9d5d41d045551c177e2882d4ac85728a6-integrity/node_modules/cross-spawn",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-unicode",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/has-unicode",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "he",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-he-1.2.0-84ae65fa7eafb165fddb61566ae14baf05664f0f-integrity/node_modules/he",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-filter",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-filter-2.1.0-1b1472562ae7a0f742f0f3d3d3718ea66ff9c09c-integrity/node_modules/p-filter",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "resolve-alpn",
+					"version": "1.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-alpn-1.2.1-b7adbdac3546aaaec20b45e7d8265927072726f9-integrity/node_modules/resolve-alpn",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "infer-owner",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/infer-owner",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-dup-key-validator",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-dup-key-validator-1.0.3-ec147e457ef600bd2a794121e88f4ec9f3edef85-integrity/node_modules/json-dup-key-validator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "locate-path",
+					"version": "6.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-locate-path-6.0.0-55321eb309febbc59c4801d931a72452a681d286-integrity/node_modules/locate-path",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "util-deprecate",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/util-deprecate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/client-ecr",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-client-ecr-3.50.0-84dc91d8996eac4f3a7d34146403031c47249485-integrity/node_modules/@aws-sdk/client-ecr",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-host-header",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-host-header-3.50.0-1e71c277aebb44568911a27e4d9525e831309921-integrity/node_modules/@aws-sdk/middleware-host-header",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "escape-string-regexp",
+					"version": "1.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-escape-string-regexp-1.0.5-1b61c0562190a8dff6ae3bb2cf0200ca130b86d4-integrity/node_modules/escape-string-regexp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "find-up",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-find-up-4.1.0-97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19-integrity/node_modules/find-up",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-locate",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-locate-4.1.0-a3428bb7088b3a60292f66919278b7c297ad4f07-integrity/node_modules/p-locate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-pkg",
+					"version": "5.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-read-pkg-5.2.0-7bf295438ca5a33e56cd30e053b34ee7250c93cc-integrity/node_modules/read-pkg",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fast-safe-stringify",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fast-safe-stringify-2.1.1-c406a83b6e70d9e35ce3b30a81141df30aeba884-integrity/node_modules/fast-safe-stringify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "good-enough-parser",
+					"version": "1.1.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-good-enough-parser-1.1.7-a1f6a2fbc10e351dcbb61e322a5f17bbc43bd1eb-integrity/node_modules/good-enough-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "keyv",
+					"version": "4.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-keyv-4.1.1-02c538bfdbd2a9308cc932d4096f05ae42bfa06a-integrity/node_modules/keyv",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "run-parallel",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-run-parallel-1.2.0-66d1368da7bdf921eb9d95bd1a9229e7f21a43ee-integrity/node_modules/run-parallel",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@babel/highlight",
+					"version": "7.16.10",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@babel-highlight-7.16.10-744f2eb81579d6eea753c227b0f570ad785aba88-integrity/node_modules/@babel/highlight",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/keyv",
+					"version": "3.1.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-keyv-3.1.4-3ccdb1c6751b0c7e52300bcdacd5bcbf8faa75b6-integrity/node_modules/@types/keyv",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "editorconfig",
+					"version": "0.15.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-editorconfig-0.15.3-bef84c4e75fb8dcb0ce5cee8efd51c15999befc5-integrity/node_modules/editorconfig",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-typedarray",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-typedarray-1.0.0-e479c80858df0c1b11ddda6940f96011fcda4a9a-integrity/node_modules/is-typedarray",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-parse-even-better-errors",
+					"version": "2.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-parse-even-better-errors-2.3.1-7c47805a94319928e05777405dc12e1f7a4ee02d-integrity/node_modules/json-parse-even-better-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "stream-to-promise",
+					"version": "2.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-stream-to-promise-2.2.0-b1edb2e1c8cb11289d1b503c08d3f2aef51e650f-integrity/node_modules/stream-to-promise",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-user-agent-browser",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-user-agent-browser-3.50.0-a2a80bb42a2e0e5d44a4ca31302ae346e03a0c5e-integrity/node_modules/@aws-sdk/util-user-agent-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimist",
+					"version": "1.2.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-minimist-1.2.6-8637a5b759ea0d6e98702cfb3a9283323c93af44-integrity/node_modules/minimist",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "type-fest",
+					"version": "0.18.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-type-fest-0.18.1-db4bc151a4a2cf4eebf9add5db75508db6cc841f-integrity/node_modules/type-fest",
+					"licenses": [
+						"(MIT OR CC0-1.0)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/graceful-fs",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-graceful-fs-1.0.0-5d765b69a4fd70ec7e1c9bdcdddb5e06c366d742-integrity/node_modules/@pnpm/graceful-fs",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "9.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unist-util-visit-parents",
+					"version": "3.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-unist-util-visit-parents-3.1.1-65a6ce698f78a6b0f56aa0e88f13801886cdaef6-integrity/node_modules/unist-util-visit-parents",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/core",
+					"version": "3.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-core-3.1.0-6bfc9b906df0d128e4627efe9c2d830c30610d48-integrity/node_modules/@yarnpkg/core",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-buffer",
+					"version": "2.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-buffer-2.0.5-ebc252e400d22ff8d77fa09888821a24a658c191-integrity/node_modules/is-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "2.3.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-readable-stream-2.3.7-1eca1cf711aef814c04f62252a36a62f6cb23b57-integrity/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unist-util-visit",
+					"version": "2.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-unist-util-visit-2.0.3-c3703893146df47203bb8a9795af47d7b971208c-integrity/node_modules/unist-util-visit",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-sized",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass-sized",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-timeout",
+					"version": "3.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-timeout-3.2.0-c7e17abc971d2a7962ef83626b35d635acf23dfe-integrity/node_modules/p-timeout",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sort-keys",
+					"version": "4.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sort-keys-4.2.0-6b7638cee42c506fff8c1cecde7376d21315be18-integrity/node_modules/sort-keys",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "dom-serializer",
+					"version": "1.3.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-dom-serializer-1.3.2-6206437d32ceefaec7161803230c7a20bc1b4d91-integrity/node_modules/dom-serializer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "longest-streak",
+					"version": "2.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-longest-streak-2.0.4-b8599957da5b5dab64dee3fe316fa774597d90e4-integrity/node_modules/longest-streak",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "5.5.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdast-util-to-string",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdast-util-to-string-2.0.0-b8cfe6a713e1091cb5b728fc48885a4767f8b97b-integrity/node_modules/mdast-util-to-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "monorepo-symlink-test",
+					"version": "0.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/multirepo",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/sha256-browser",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-sha256-browser-2.0.0-741c9024df55ec59b51e5b1f5d806a4852699fb5-integrity/node_modules/@aws-crypto/sha256-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@cheap-glitch/mi-cron",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@cheap-glitch-mi-cron-1.0.1-111f4ce746c269aedf74533ac806881763a68f99-integrity/node_modules/@cheap-glitch/mi-cron",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "camelcase",
+					"version": "5.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-camelcase-5.3.1-e3c9b31569e106811df242f715725a1f4c494320-integrity/node_modules/camelcase",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "1.9.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "grapheme-splitter",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-grapheme-splitter-1.0.4-9cf3a665c6247479896834af35cf1dbb4400767e-integrity/node_modules/grapheme-splitter",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-fullwidth-code-point",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/is-fullwidth-code-point",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-json-stringify",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-safe-json-stringify-1.2.0-356e44bc98f1f93ce45df14bcd7c01cda86e0afd-integrity/node_modules/safe-json-stringify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-string-decoder-1.1.1-9cf1611ba62685d7030ae9e4ba34149c3af03fc8-integrity/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/arrays",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-arrays-1.0.3-f4d26184f6da3ff30beb2488a131e19f187fd920-integrity/node_modules/@thi.ng/arrays",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacheable-lookup",
+					"version": "5.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-cacheable-lookup-5.0.4-5a6b865b2c44357be3d5ebc2a467b032719a7005-integrity/node_modules/cacheable-lookup",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "commander",
+					"version": "9.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-commander-9.1.0-a6b263b2327f2e188c6402c42623327909f2dbec-integrity/node_modules/commander",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-ssh",
+					"version": "1.3.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-ssh-1.3.3-7f133285ccd7f2c2c7fc897b771b53d95a2b2c7e-integrity/node_modules/is-ssh",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node.extend",
+					"version": "2.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-node-extend-2.0.2-b4404525494acc99740f3703c496b7d5182cc6cc-integrity/node_modules/node.extend",
+					"licenses": [
+						"(MIT OR GPL-2.0)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strict-uri-encode",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-strict-uri-encode-2.0.0-b9c7330c7042862f6b142dc274bbcc5866ce3546-integrity/node_modules/strict-uri-encode",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tslib",
+					"version": "1.14.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-tslib-1.14.1-cf2d38bdc34a134bcaf1091c41f6619e2f672d00-integrity/node_modules/tslib",
+					"licenses": [
+						"0BSD"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "universalify",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-universalify-2.0.0-75a4984efedc4b08975c5aeb73f530d02df25717-integrity/node_modules/universalify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/search",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-search-1.0.3-7c3d026bf994caf82019fd0c3924cfc09f041a29-integrity/node_modules/@node-redis/search",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/moo",
+					"version": "0.5.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-moo-0.5.5-83220b7349c59fd4bb1bc14b1d4ea0041899dc15-integrity/node_modules/@types/moo",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "commander",
+					"version": "2.20.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-commander-2.20.3-fd485e84c03eb4881c20722ba48035e8531aeb33-integrity/node_modules/commander",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-debug-4.3.3-04266e0b70a98d4462e6e288e38259213332b664-integrity/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delegates",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/delegates",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-has-1.0.3-722d7cbfc1f6aa8241f16dd814e011e1f41e8796-integrity/node_modules/has",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrappy",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/wrappy",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/error",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-error-2.1.0-b309bd4025150943fffb5e86a11b177b87a09989-integrity/node_modules/@pnpm/error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "entities",
+					"version": "2.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-entities-2.2.0-098dc90ebb83d8dffa089d55256b351d34c4da55-integrity/node_modules/entities",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdast-util-to-string",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdast-util-to-string-1.1.0-27055500103f51637bd07d01da01eb1967a43527-integrity/node_modules/mdast-util-to-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "baz",
+					"version": "",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/baz"
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/bloom",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-bloom-1.0.1-144474a0b7dc4a4b91badea2cfa9538ce0a1854e-integrity/node_modules/@node-redis/bloom",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "conventional-commits-detector",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-conventional-commits-detector-1.0.3-e31b72db0e6fde66b3d7fc39b76c14ef7e5e443c-integrity/node_modules/conventional-commits-detector",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-has-flag-3.0.0-b5d454dc2199ae225699f3467e5a07f3b955bafd-integrity/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isarray",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11-integrity/node_modules/isarray",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "merge2",
+					"version": "1.4.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-merge2-1.4.1-4368892f885e907455a6fd7dc55c0c9d404990ae-integrity/node_modules/merge2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "object.assign",
+					"version": "4.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-object-assign-4.1.2-0ed54a342eceb37b38ff76eb831a0e788cb63940-integrity/node_modules/object.assign",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "type-fest",
+					"version": "0.6.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-type-fest-0.6.0-8d2a2370d3df886eb5c90ada1c5bf6188acf838b-integrity/node_modules/type-fest",
+					"licenses": [
+						"(MIT OR CC0-1.0)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/querystring-parser",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-querystring-parser-3.50.0-e93532bee36095484338042e015942d3f3aabad4-integrity/node_modules/@aws-sdk/querystring-parser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-defaults-mode-browser",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-defaults-mode-browser-3.50.0-8864577d282a4e9ee79e1f0c460c688bd2ad580b-integrity/node_modules/@aws-sdk/util-defaults-mode-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isexe",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/isexe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-parse",
+					"version": "1.0.7",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-path-parse-1.0.7-fbc114b60ca42b30d9daf5858e4bd68bbedb6735-integrity/node_modules/path-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise",
+					"version": "7.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-promise-7.3.1-064b72602b18f90f29192b8b1bc418ffd1ebd3bf-integrity/node_modules/promise",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "protocols",
+					"version": "1.4.8",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-protocols-1.4.8-48eea2d8f58d9644a4a32caae5d5db290a075ce8-integrity/node_modules/protocols",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@yarnpkg/libzip",
+					"version": "2.2.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@yarnpkg-libzip-2.2.4-438744efe3b7ae0514f5db1ead130c1df1e685f6-integrity/node_modules/@yarnpkg/libzip",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-exists",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-path-exists-4.0.0-513bdbe2d3b95d7762e8c1137efa195c6c61b5b3-integrity/node_modules/path-exists",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-utf8-browser",
+					"version": "3.55.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-utf8-browser-3.55.0-a045bf1a93f6e0ff9c846631b168ea55bbb37668-integrity/node_modules/@aws-sdk/util-utf8-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-color-name-1.1.4-c2a09a87acbde69543de6f63fa3995c826c536a2-integrity/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "domhandler",
+					"version": "4.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-domhandler-4.3.1-8d792033416f59d68bc03a5aa7b018c1ca89279c-integrity/node_modules/domhandler",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-core-module",
+					"version": "2.8.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-core-module-2.8.1-f59fdfca701d5879d0a6b100a40aa1560ce27211-integrity/node_modules/is-core-module",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "stream-to-array",
+					"version": "2.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-stream-to-array-2.3.0-bbf6b39f5f43ec30bc71babcb37557acecf34353-integrity/node_modules/stream-to-array",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-waiter",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-waiter-3.50.0-b7a4b5d9b3cd8efe7698f46bbb04a6ccab7427f6-integrity/node_modules/@aws-sdk/util-waiter",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@my-scope/package-a",
+					"version": "0.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-resolve-1.22.0-5e0b8c67c15df57a89bdbabe603a002f21731198-integrity/node_modules/resolve/test/resolver/multirepo/packages/package-a",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "6.1.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/is-array-buffer",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-is-array-buffer-3.49.0-5bd79e83f8dd77d6a25c645aa3725beb38c5855f-integrity/node_modules/@aws-sdk/is-array-buffer",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/move-file",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/@npmcli/move-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "email-addresses",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-email-addresses-5.0.0-7ae9e7f58eef7d5e3e2c2c2d3ea49b78dc854fa6-integrity/node_modules/email-addresses",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "type-fest",
+					"version": "0.13.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-type-fest-0.13.1-0172cb5bce80b0bd542ea348db50c7e21834d934-integrity/node_modules/type-fest",
+					"licenses": [
+						"(MIT OR CC0-1.0)"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "shlex",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-shlex-2.1.0-4f8fbf75c4a9956283e4095fa5eac3f4969f6a6b-integrity/node_modules/shlex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yauzl",
+					"version": "2.10.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-yauzl-2.10.0-c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9-integrity/node_modules/yauzl",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chevrotain",
+					"version": "9.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-chevrotain-9.1.0-ca2a811372687ad6f4d11c063cd27a26e5fbd52d-integrity/node_modules/chevrotain",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inherits",
+					"version": "2.0.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/inherits",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "2.5.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-normalize-package-data-2.5.0-e66db1838b200c1dfc233225d12cb36520e234a8-integrity/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "through2-concurrent",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-through2-concurrent-2.0.0-c9dd2c146504ec9962dbc86a5168b63d662669fa-integrity/node_modules/through2-concurrent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-name",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-validate-npm-package-name-3.0.0-5fa912d81eb7d0c74afc140de7317f0ca7df437e-integrity/node_modules/validate-npm-package-name",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-sdk-sts",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-sdk-sts-3.50.0-3eaf10da841eef027b3e7b3bf81cef4247da1e26-integrity/node_modules/@aws-sdk/middleware-sdk-sts",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-user-agent",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-user-agent-3.50.0-1436af0e22352969cbb141fc19ba4c34ed631775-integrity/node_modules/@aws-sdk/middleware-user-agent",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "imurmurhash",
+					"version": "0.1.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/imurmurhash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-alphanumerical",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-alphanumerical-1.0.4-7eb9a2431f855f6b1ef1a78e326df515696c4dbf-integrity/node_modules/is-alphanumerical",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "6.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-semver-6.3.0-ee0a64c8af5e8ceea67687b133761e1becbd1d3d-integrity/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "map-obj",
+					"version": "4.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-map-obj-4.3.0-9304f906e93faae70880da102a9f1df0ea8bb05a-integrity/node_modules/map-obj",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-config-provider",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-config-provider-3.49.0-bfe46ac5559c65fe9443e26d9510abc2584a4d1c-integrity/node_modules/@aws-sdk/util-config-provider",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "globalthis",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-globalthis-1.0.2-2a235d34f4d8036219f7e34929b5de9e18166b8b-integrity/node_modules/globalthis",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pend",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-pend-1.2.0-7a57eb550a6783f9115331fcf4663d5c8e007a50-integrity/node_modules/pend",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.3.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-bom",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-strip-bom-4.0.0-9c3505c1db45bcedca3d9cf7a16f5c5aa3901878-integrity/node_modules/strip-bom",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http2-wrapper",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-http2-wrapper-1.0.3-b8f55e0c1f25d4ebd08b3b0c2c079f9590800b3d-integrity/node_modules/http2-wrapper",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "trough",
+					"version": "1.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-trough-1.0.5-b8b639cefad7d0bb2abd37d433ff8293efa5f406-integrity/node_modules/trough",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "typanion",
+					"version": "3.7.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-typanion-3.7.1-5fceb57a2fa0c0a5beca25a7e90ac2a420863709-integrity/node_modules/typanion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/shared-ini-file-loader",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-shared-ini-file-loader-3.49.0-a4d7b84046d9aa28be8158f34f40c21bce1dffda-integrity/node_modules/@aws-sdk/shared-ini-file-loader",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "argparse",
+					"version": "1.0.10",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-argparse-1.0.10-bcd6791ea5ae09725e17e5ad988134cd40b3d911-integrity/node_modules/argparse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chownr",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/chownr",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "core-util-is",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-core-util-is-1.0.3-a6042d3634c2b27e9328f837b965fac83808db85-integrity/node_modules/core-util-is",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delay",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-delay-5.0.0-137045ef1b96e5071060dd5be60bf9334436bd1d-integrity/node_modules/delay",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "4.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-http-proxy-agent-4.0.1-8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a-integrity/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bunyan",
+					"version": "1.8.15",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-bunyan-1.8.15-8ce34ca908a17d0776576ca1b2f6cbd916e93b46-integrity/node_modules/bunyan",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "define-properties",
+					"version": "1.1.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-define-properties-1.1.3-cf88da6cbee26fe6db7094f61d870cbd84cee9f1-integrity/node_modules/define-properties",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-plain-obj",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-plain-obj-1.1.0-71a50c8429dfca773c92a390a4a03b39fcd51d3e-integrity/node_modules/is-plain-obj",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-cancelable",
+					"version": "2.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-cancelable-2.1.1-aab7fbd416582fa32a3db49859c122487c5ed2cf-integrity/node_modules/p-cancelable",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "redent",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-redent-3.0.0-e557b7998316bb53c9f1f56fa626352c6963059f-integrity/node_modules/redent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emojibase",
+					"version": "6.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-emojibase-6.1.0-c3bc281e998a0e06398416090c23bac8c5ed3ee8-integrity/node_modules/emojibase",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lines-and-columns",
+					"version": "1.2.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-lines-and-columns-1.2.4-eca284f75d2965079309dc0ad9255abb2ebc1632-integrity/node_modules/lines-and-columns",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "moment",
+					"version": "2.29.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-moment-2.29.1-b2be769fa31940be9eeea6469c075e35006fa3d3-integrity/node_modules/moment",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-flush",
+					"version": "1.0.5",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass-flush",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-pipeline",
+					"version": "1.2.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minipass-pipeline",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nan",
+					"version": "2.15.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-nan-2.15.0-3f34a473ff18e15c1b5626b62903b5ad6e665fee-integrity/node_modules/nan",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sprintf",
+					"version": "1.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-sprintf-js-1.0.3-04e6926f662895354f3dd015203633b857297e2c-integrity/node_modules/sprintf-js",
+					"licenses": [
+						"BSD-3-Clause-Clear"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "zwitch",
+					"version": "1.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-zwitch-1.0.5-d11d7381ffed16b742f6af7b3f223d5cd9fe9920-integrity/node_modules/zwitch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@chevrotain/utils",
+					"version": "9.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@chevrotain-utils-9.1.0-a34ab0696f9491dee934e848984517d226356f21-integrity/node_modules/@chevrotain/utils",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "diff",
+					"version": "4.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-diff-4.0.2-60f3aecb89d5fae520c11aa19efc2bb982aade7d-integrity/node_modules/diff",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "js-tokens",
+					"version": "4.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-js-tokens-4.0.0-19203fb59991df98e3a287050d4647cdeaf32499-integrity/node_modules/js-tokens",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "remark-github",
+					"version": "10.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-remark-github-10.1.0-1c2777c1d4082b56d7890af656a0a525e49cacfc-integrity/node_modules/remark-github",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "0.5.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mkdirp-0.5.6-7def03d2432dcae4ba1d611445c48396062255f6-integrity/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-limit",
+					"version": "2.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-limit-2.3.0-3dd33c647a214fdfffd835933eb086da0dc21db1-integrity/node_modules/p-limit",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wide-align",
+					"version": "1.1.5",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/wide-align",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/types",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-types-3.50.0-87b7679901129f5989d7da8b44364bf6a9ff8722-integrity/node_modules/@aws-sdk/types",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "redis-errors",
+					"version": "1.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-redis-errors-1.2.0-eb62d2adb15e4eaf4610c04afe1529384250abad-integrity/node_modules/redis-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/signature-v4",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-signature-v4-3.50.0-88167352174574189a283c947d51f041a30a4b6c-integrity/node_modules/@aws-sdk/signature-v4",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cluster-key-slot",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-cluster-key-slot-1.1.0-30474b2a981fb12172695833052bc0d01336d10d-integrity/node_modules/cluster-key-slot",
+					"licenses": [
+						"APACHE-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "find-packages",
+					"version": "8.0.13",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-find-packages-8.0.13-e3e26196b7108bfd172b8e7ff39fe4566857f65e-integrity/node_modules/find-packages",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inflight",
+					"version": "1.0.6",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "8.4.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-node-gyp-8.4.1-3d49308fc31f768180957d6b5746845fbd429937-integrity/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-body-length-browser",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-body-length-browser-3.49.0-8a8ad5c93ac8ed2767434454a872912829775bff-integrity/node_modules/@aws-sdk/util-body-length-browser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-glob",
+					"version": "4.0.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-glob-4.0.3-64f61e42cbbb2eec2071a9dac0b28ba1e65d5084-integrity/node_modules/is-glob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lodash",
+					"version": "4.17.21",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mdast-util-from-markdown",
+					"version": "0.8.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-mdast-util-from-markdown-0.8.5-d1ef2ca42bc377ecb0463a987910dae89bd9a28c-integrity/node_modules/mdast-util-from-markdown",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "regexp-to-ast",
+					"version": "0.5.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-regexp-to-ast-0.5.0-56c73856bee5e1fef7f73a00f1473452ab712a24-integrity/node_modules/regexp-to-ast",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/supports-web-crypto",
+					"version": "2.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-supports-web-crypto-2.0.0-fd6cde30b88f77d5a4f57b2c37c560d918014f9e-integrity/node_modules/@aws-crypto/supports-web-crypto",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@nodelib/fs.stat",
+					"version": "2.0.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@nodelib-fs-stat-2.0.5-5bd262af94e9d25bd1e71b05deed44876a222e8b-integrity/node_modules/@nodelib/fs.stat",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "backslash",
+					"version": "0.2.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-backslash-0.2.0-6c3c1fce7e7e714ccfc10fd74f0f73410677375f-integrity/node_modules/backslash"
+				},
+				{
+					"type": "nodejs",
+					"name": "braces",
+					"version": "3.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-braces-3.0.2-3454e1a462ee8d599e236df336cd9ea4f8afe107-integrity/node_modules/braces",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.4.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-is-absolute",
+					"version": "1.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/path-is-absolute",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@arcanis/slice-ansi",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@arcanis-slice-ansi-1.1.1-0ee328a68996ca45854450033a3d161421dc4f55-integrity/node_modules/@arcanis/slice-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/invalid-dependency",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-invalid-dependency-3.50.0-283d509da7f412c7e33bdb470a7ffdcc08ac6fc0-integrity/node_modules/@aws-sdk/invalid-dependency",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "15.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-cacache-15.3.0-dc85380fb2f556fe3dda4c719bfa0ec875a7f1eb-integrity/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "detect-node",
+					"version": "2.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-detect-node-2.1.0-c9c70775a49c3d03bc2c06d9a73be550f978f8b1-integrity/node_modules/detect-node",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "filter-obj",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-filter-obj-1.1.0-9b311112bc6c6127a16e016c6c5d7f19e0805c5b-integrity/node_modules/filter-obj",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hasha",
+					"version": "5.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-hasha-5.2.2-a48477989b3b327aea3c04f53096d816d97522a1-integrity/node_modules/hasha",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "redis-parser",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-redis-parser-3.0.0-b66d828cdcafe6b4b8a428a7def4c6bcac31c8b4-integrity/node_modules/redis-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "smart-buffer",
+					"version": "4.2.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/smart-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "8.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/util-credentials",
+					"version": "3.49.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-util-credentials-3.49.0-ca12506c572e988aa5d4ab230499ba2f0934fcf1-integrity/node_modules/@aws-sdk/util-credentials",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@kwsites/promise-deferred",
+					"version": "1.1.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@kwsites-promise-deferred-1.1.1-8ace5259254426ccef57f3175bc64ed7095ed919-integrity/node_modules/@kwsites/promise-deferred",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "1.1.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@tootallnate-once-1.1.2-ccb91445360179a04e7fe6aff78c00ffc1eeaf82-integrity/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "8.0.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "markdown-it",
+					"version": "12.3.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-markdown-it-12.3.2-bf92ac92283fe983fe4de8ff8abfb5ad72cd0c90-integrity/node_modules/markdown-it",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "3.0.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/middleware-logger",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-middleware-logger-3.50.0-68df0f9268c9c1eb65269b733e610001b0493960-integrity/node_modules/@aws-sdk/middleware-logger",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fd-slicer",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fd-slicer-1.1.0-25c7c89cb1f9077f8891bbe61d8f390eae256f1e-integrity/node_modules/fd-slicer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "re2",
+					"version": "1.17.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-re2-1.17.4-7bf29290bdde963014e77bd2c2e799a6d788386e-integrity/node_modules/re2",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-license",
+					"version": "3.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-validate-npm-package-license-3.0.4-fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a-integrity/node_modules/validate-npm-package-license",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@thi.ng/equiv",
+					"version": "1.0.45",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@thi-ng-equiv-1.0.45-02bf71a630939c8f61a2a7b9e83cca9569ead7f3-integrity/node_modules/@thi.ng/equiv",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nanoid",
+					"version": "3.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-nanoid-3.3.1-6347a18cac88af88f58af0b3594b723d5e99bb35-integrity/node_modules/nanoid",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-url",
+					"version": "6.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-normalize-url-6.1.0-40d0885b535deffe3f3147bec877d05fe4c5668a-integrity/node_modules/normalize-url",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-queue",
+					"version": "6.6.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-queue-6.6.2-2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426-integrity/node_modules/p-queue",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "redis",
+					"version": "4.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-redis-4.0.4-b567f82f59086df38433982f7f424b48e924ec7a-integrity/node_modules/redis",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/property-provider",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-property-provider-3.50.0-56154b2672916724148080466921b79f736e658e-integrity/node_modules/@aws-sdk/property-provider",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@pnpm/write-project-manifest",
+					"version": "2.0.11",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@pnpm-write-project-manifest-2.0.11-d1a060845aad1ca611082382217e8766621e3ade-integrity/node_modules/@pnpm/write-project-manifest",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "css-select",
+					"version": "4.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-css-select-4.3.0-db7129b2846662fd8628cfc496abb2b59e41529b-integrity/node_modules/css-select",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "6.0.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/strip-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-crypto/sha256-js",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-crypto-sha256-js-2.0.1-79e1e6cf61f652ef2089c08d471c722ecf1626a9-integrity/node_modules/@aws-crypto/sha256-js",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/emscripten",
+					"version": "1.39.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-emscripten-1.39.6-698b90fe60d44acf93c31064218fbea93fbfd85a-integrity/node_modules/@types/emscripten",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "to-regex-range",
+					"version": "5.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-to-regex-range-5.0.1-1648c44aae7c8d988a326018ed72f5b4dd0392e4-integrity/node_modules/to-regex-range",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/credential-provider-process",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-credential-provider-process-3.50.0-696b3882fc70b887658a7daafe8dae6409c14033-integrity/node_modules/@aws-sdk/credential-provider-process",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "env-paths",
+					"version": "2.2.1",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/env-paths",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fill-range",
+					"version": "7.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-fill-range-7.0.1-1919a6a7c75fe38b2c7c77e5198535da9acdda40-integrity/node_modules/fill-range",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "install-artifact-from-github",
+					"version": "1.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-install-artifact-from-github-1.3.0-cab6ff821976b8a35b0c079da19a727c90381a40-integrity/node_modules/install-artifact-from-github",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-stringify-safe",
+					"version": "5.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json-stringify-safe-5.0.1-1296a2d58fd45f19a0f6ce01d65701e2c735b6eb-integrity/node_modules/json-stringify-safe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minizlib",
+					"version": "2.1.2",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/minizlib",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@iarna/toml",
+					"version": "2.2.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@iarna-toml-2.2.5-b32366c89b43c6f8cefbdefac778b9c828e3ba8c-integrity/node_modules/@iarna/toml",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bowser",
+					"version": "2.11.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-bowser-2.11.0-5ca3c35757a7aa5771500c70a73a9f91ef420a8f-integrity/node_modules/bowser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clean-stack",
+					"version": "2.2.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/clean-stack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "4.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-hosted-git-info-4.1.0-827b82867e9ff1c8d0c4d9d53880397d2c86d224-integrity/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "moo",
+					"version": "0.5.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-moo-0.5.1-7aae7f384b9b09f620b6abf6f74ebbcd1b65dbc4-integrity/node_modules/moo",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-html-parser",
+					"version": "5.3.3",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-node-html-parser-5.3.3-2845704f3a7331a610e0e551bf5fa02b266341b6-integrity/node_modules/node-html-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@types/cacheable-request",
+					"version": "6.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@types-cacheable-request-6.0.2-c324da0197de0a98a2312156536ae262429ff6b9-integrity/node_modules/@types/cacheable-request",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is",
+					"version": "3.3.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-3.3.0-61cff6dd3c4193db94a3d62582072b44e5645d79-integrity/node_modules/is",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-all",
+					"version": "3.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-p-all-3.0.0-077c023c37e75e760193badab2bad3ccd5782bfb-integrity/node_modules/p-all",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@chevrotain/types",
+					"version": "9.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@chevrotain-types-9.1.0-689f2952be5ad9459dae3c8e9209c0f4ec3c5ec4-integrity/node_modules/@chevrotain/types",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json5",
+					"version": "2.2.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-json5-2.2.1-655d50ed1e6f95ad1a3caababd2b0efda10b395c-integrity/node_modules/json5",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "openpgp-lightweight",
+					"version": "",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-openpgp-5.2.1-cc48b25eb7d1b4613a167c9e6def8717eea53429-integrity/node_modules/openpgp/lightweight"
+				},
+				{
+					"type": "nodejs",
+					"name": "split-on-first",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-split-on-first-1.1.0-f610afeee3b12bce1d0c30425e76398b78249a5f-integrity/node_modules/split-on-first",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unified",
+					"version": "9.2.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-unified-9.2.2-67649a1abfc3ab85d2969502902775eb03146975-integrity/node_modules/unified",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/graph",
+					"version": "1.0.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-graph-1.0.0-baf8eaac4a400f86ea04d65ec3d65715fd7951ab-integrity/node_modules/@node-redis/graph",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@node-redis/time-series",
+					"version": "1.0.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@node-redis-time-series-1.0.2-5dd3638374edd85ebe0aa6b0e87addc88fb9df69-integrity/node_modules/@node-redis/time-series",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "console-control-strings",
+					"version": "1.1.0",
+					"path": "/usr/local/share/.config/yarn/global/node_modules/console-control-strings",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-decimal",
+					"version": "1.0.4",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-is-decimal-1.0.4-65a3a5958a1c5b63a706e1b333d7cd9f630d3fa5-integrity/node_modules/is-decimal",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "picomatch",
+					"version": "2.3.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-picomatch-2.3.1-3ba3833733646d9d3e4995946c1365a67fb07a42-integrity/node_modules/picomatch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@aws-sdk/url-parser",
+					"version": "3.50.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@aws-sdk-url-parser-3.50.0-5ebd0acd2bec3f4addb78b4f6166a9855d932adf-integrity/node_modules/@aws-sdk/url-parser",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@nodelib/fs.scandir",
+					"version": "2.1.5",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-@nodelib-fs-scandir-2.1.5-7619c2eb21b25483f6d167548b4cfd5a7488c3d5-integrity/node_modules/@nodelib/fs.scandir",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "asap",
+					"version": "2.0.6",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-asap-2.0.6-e50347611d7e690943208bbdafebcbc2fb866d46-integrity/node_modules/asap",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "detect-indent",
+					"version": "6.1.0",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-detect-indent-6.1.0-592485ebbbf6b3b1ab2be175c8393d04ca0d57e6-integrity/node_modules/detect-indent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "neo-async",
+					"version": "2.6.2",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-neo-async-2.6.2-b4aafb93e3aeb2d8174ca53cf163ab7d7308305f-integrity/node_modules/neo-async",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "process-nextick-args",
+					"version": "2.0.1",
+					"path": "/usr/local/share/.cache/yarn/v6/npm-process-nextick-args-2.0.1-7820d9b16120cc55ca9ae7792680ae7dba6d7fe2-integrity/node_modules/process-nextick-args",
+					"licenses": [
+						"MIT"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "busybox",
+					"version": "1.34.1",
+					"path": "/bin/busybox"
+				},
+				{
+					"name": "node",
+					"version": "16.14.2",
+					"path": "/usr/bin/node"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.3.1 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1969-12-31T16:00:00-08:00",
+					"category": "Docker"
+				},
+				{
+					"id": 425,
+					"title": "Private keys stored in image",
+					"severity": "high",
+					"cause": "Found: /usr/local/share/.cache/yarn/v6/npm-node-gyp-8.4.1-3d49308fc31f768180957d6b5746845fbd429937-integrity/node_modules/node-gyp/test/fixtures/server.key, /usr/local/share/.cache/yarn/v6/npm-node-gyp-9.0.0-e1da2067427f3eb5bb56820cb62bc6b1e4bd2089-integrity/node_modules/node-gyp/test/fixtures/server.key, /usr/local/share/.config/yarn/global/node_modules/node-gyp/test/fixtures/server.key",
+					"layerTime": "1969-12-31T16:00:00-08:00",
+					"category": "Twistlock Labs"
+				},
+				{
+					"id": 406,
+					"title": "(CIS_Docker_v1.3.1 - 4.6) Add HEALTHCHECK instruction to the container image",
+					"severity": "medium",
+					"description": "One of the important security triads is availability. Adding HEALTHCHECK instruction to your\ncontainer image ensures that the docker engine periodically checks the running container\ninstances against that instruction to ensure that the instances are still working",
+					"layerTime": "1969-12-31T16:00:00-08:00",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 2,
+				"medium": 1,
+				"low": 0,
+				"total": 3
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2022-28391",
+					"status": "fixed in 1.34.1-r5",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record\\'s value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal\\'s colors.",
+					"severity": "critical",
+					"packageName": "busybox",
+					"packageVersion": "1.34.1-r4",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-28391",
+					"riskFactors": [
+						"Attack vector: network",
+						"Critical severity",
+						"Has fix",
+						"Recent vulnerability",
+						"Remote execution",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c1.34.1-r5"
+					],
+					"publishedDate": "2022-04-03T14:15:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": -47,
+					"fixDate": "2022-04-03T14:15:00-07:00",
+					"layerTime": "2022-03-28T17:19:36-07:00"
+				},
+				{
+					"id": "CVE-2022-24765",
+					"status": "fixed in 2.34.2-r0",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Git for Windows is a fork of Git containing Windows-specific patches. This vulnerability affects users working on multi-user machines, where untrusted parties have write access to the same hard disk. Those untrusted parties could create the folder `C:\\\\.git`, which would be picked up by Git operations run supposedly outside a repository while searching for a Git directory. Git would then respect any config in said Git directory. Git Bash users who set `GIT_PS1_SHOWDIRTYSTATE` are vulnerable as well. Users who installed posh-gitare vulnerable simply by starting a PowerShell. Users of IDEs such as Visual Studio are vulnerable: simply creating a new project would already read and respect the config specified in `C:\\\\.git\\\\config`. Users of the Microsoft fork of Git are vulnerable simply by starting a Git Bash. The problem has been patched in Git for Windows v2.35.2. Users unable to upgrade may create the folder `.git` on all drives where Git commands are run, and remove read/write access from those folders as a workaround. Alternatively, define or extend `GIT_CEILING_DIRECTORIES` to cover the _parent_ directory of the user profile, e.g. `C:\\\\Users` if the user profile is located in `C:\\\\Users\\\\my-user-name`.",
+					"severity": "high",
+					"packageName": "git",
+					"packageVersion": "2.34.1-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-24765",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003c2.34.2-r0"
+					],
+					"publishedDate": "2022-04-12T11:15:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": -15,
+					"fixDate": "2022-04-12T11:15:00-07:00",
+					"layerTime": "2022-03-30T07:48:09-07:00"
+				},
+				{
+					"id": "CVE-2022-24785",
+					"status": "fixed in 2.29.2",
+					"cvss": 7,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "Moment.js is a JavaScript date library for parsing, validating, manipulating, and formatting dates. A path traversal vulnerability impacts npm (server) users of Moment.js between versions 1.0.1 and 2.29.1, especially if a user-provided locale string is directly used to switch moment locale. This problem is patched in 2.29.2, and the patch can be applied to all affected versions. As a workaround, sanitize the user-provided locale name before passing it to Moment.js.",
+					"severity": "high",
+					"packageName": "moment",
+					"packageVersion": "2.29.1",
+					"link": "https://github.com/advisories/GHSA-8hfj-j24r-96c4",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Has fix",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c2.29.2"
+					],
+					"publishedDate": "2022-04-04T10:15:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": -23,
+					"fixDate": "2022-04-04T14:25:48-07:00",
+					"layerTime": "2022-03-30T08:51:48-07:00"
+				},
+				{
+					"id": "CVE-2022-24066",
+					"status": "fixed in 3.5.0",
+					"cvss": 7,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The package simple-git before 3.5.0 are vulnerable to Command Injection due to an incomplete fix of [CVE-2022-24433](https://security.snyk.io/vuln/SNYK-JS-SIMPLEGIT-2421199) which only patches against the git fetch attack vector. A similar use of the --upload-pack feature of git is also supported for git clone, which the prior fix didn\\'t cover.",
+					"severity": "high",
+					"packageName": "simple-git",
+					"packageVersion": "3.4.0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-24066",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003c3.5.0"
+					],
+					"publishedDate": "2022-04-01T17:00:13-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": -25,
+					"fixDate": "2022-04-01T17:00:13-07:00",
+					"layerTime": "2022-03-30T08:51:48-07:00"
+				},
+				{
+					"id": "CVE-2022-27776",
+					"status": "fixed in 7.80.0-r1",
+					"description": "DOCUMENTATION: No description is available for this CVE.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.80.0-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-27776",
+					"riskFactors": [
+						"Has fix",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c7.80.0-r1"
+					],
+					"publishedDate": "2022-04-26T17:00:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": 150,
+					"layerTime": "2022-03-30T07:48:09-07:00"
+				},
+				{
+					"id": "CVE-2022-27775",
+					"status": "fixed in 7.80.0-r1",
+					"description": "Red Hat\\'s versions of the associated software have been determined to NOT be affected by CVE-2022-27775.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.80.0-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-27775",
+					"riskFactors": [
+						"Has fix",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c7.80.0-r1"
+					],
+					"publishedDate": "2022-04-26T17:00:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": 150,
+					"layerTime": "2022-03-30T07:48:09-07:00"
+				},
+				{
+					"id": "CVE-2022-27774",
+					"status": "fixed in 7.80.0-r1",
+					"description": "DOCUMENTATION: No description is available for this CVE.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.80.0-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-27774",
+					"riskFactors": [
+						"Has fix",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c7.80.0-r1"
+					],
+					"publishedDate": "2022-04-26T17:00:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": 150,
+					"layerTime": "2022-03-30T07:48:09-07:00"
+				},
+				{
+					"id": "CVE-2022-22576",
+					"status": "fixed in 7.80.0-r1",
+					"description": "DOCUMENTATION: No description is available for this CVE.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.80.0-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-22576",
+					"riskFactors": [
+						"Has fix",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c7.80.0-r1"
+					],
+					"publishedDate": "2022-04-26T17:00:00-07:00",
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"graceDays": 150,
+					"layerTime": "2022-03-30T07:48:09-07:00"
+				},
+				{
+					"id": "ALPINE-13661",
+					"status": "fixed in 1.34.1-r5",
+					"severity": "low",
+					"packageName": "busybox",
+					"packageVersion": "1.34.1-r4",
+					"riskFactors": [
+						"Has fix"
+					],
+					"impactedVersions": [
+						"\u003c1.34.1-r5"
+					],
+					"discoveredDate": "2022-05-20T13:55:21-07:00",
+					"layerTime": "2022-03-28T17:19:36-07:00"
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 1,
+				"high": 3,
+				"medium": 0,
+				"low": 5,
+				"total": 9
+			},
+			"vulnerabilityScanPassed": false,
+			"history": [
+				{
+					"created": "2022-03-28T17:19:36-07:00",
+					"instruction": "ADD file:3b5a33c96fd3c10d0c438d907ce172903f7b2bde0f4e5107831e135ddf111b19 in / "
+				},
+				{
+					"created": "2022-03-28T17:19:36-07:00",
+					"instruction": "CMD [\"/bin/sh\"]"
+				},
+				{
+					"created": "2022-03-30T07:48:09-07:00",
+					"instruction": "RUN /bin/sh -c apk --no-cache add --upgrade nodejs~16 yarn gnupg git dumb-init # buildkit"
+				},
+				{
+					"created": "2022-03-30T07:48:09-07:00",
+					"instruction": "WORKDIR /app"
+				},
+				{
+					"created": "2022-03-30T08:51:14-07:00",
+					"instruction": "COPY docker-entrypoint.sh docker-entrypoint.sh # buildkit"
+				},
+				{
+					"created": "2022-03-30T08:51:48-07:00",
+					"instruction": "RUN /bin/sh -c yarn global add renovate # buildkit"
+				},
+				{
+					"created": "2022-03-30T08:51:48-07:00",
+					"instruction": "ENTRYPOINT [\"/app/docker-entrypoint.sh\"]"
+				}
+			],
+			"scanTime": "2022-05-20T20:55:26.339589Z",
+			"scanID": "6288003e372b198b3217772e"
+		}
+	],
+	"consoleURL": "https://example.com/#!/monitor/vulnerabilities/images/ci?search=sha256%3A47a63895a7e6ab14e5488fdb7a59165b6a95076bd82cffc61c622896c965ec45"
+}
