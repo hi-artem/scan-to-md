@@ -6,8 +6,9 @@ use std::env;
 
 #[derive(Deserialize)]
 struct Scan {
-    #[serde(rename = "consoleURL")]
+    #[serde(rename = "consoleURL",default = "default_string")]
     console_url: String,
+    #[serde(default = "default_scan_results_vector")]
     results: Vec<ScanResult>,
 }
 
@@ -79,9 +80,15 @@ fn default_compliances_vector() -> Vec<Compliance> {
 }
 
 fn default_vulnerabilities_vector() -> Vec<Vulnerability> {
-    let default_compliances =  Vec::new();
-    default_compliances
+    let default_vulnerabilities =  Vec::new();
+    default_vulnerabilities
 }
+
+fn default_scan_results_vector() -> Vec<ScanResult> {
+    let default_scan_results =  Vec::new();
+    default_scan_results
+}
+
 
 fn main() {
     container_scan().expect("Something went wrong deserializing data");
@@ -91,8 +98,8 @@ fn container_scan() -> Result<()> {
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
-        eprintln!("Please provide input file!");
-        std::process::exit(2);
+        eprintln!("Please provide input file");
+        std::process::exit(1);
     }
 
     let filename = &args[1];
@@ -100,6 +107,11 @@ fn container_scan() -> Result<()> {
     let contents = fs::read_to_string(filename).expect("Something went wrong reading the file");
 
     let scan: Scan = serde_json::from_str(&contents)?;
+
+    if scan.results.len() < 1 {
+        eprintln!("No scan results found in the input file");
+        std::process::exit(10);
+    }
 
     let scan_result = &scan.results[0];
     let vulnerabilities = &scan.results[0].vulnerabilities;
