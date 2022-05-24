@@ -17,9 +17,11 @@ struct ScanResult {
     id: String,
     #[serde(default = "default_string")]
     name: String,
+    #[serde(default = "default_compliances_vector")]
     compliances: Vec<Compliance>,
     #[serde(rename = "complianceScanPassed", default = "default_bool")]
     compliance_scan_passed: bool,
+    #[serde(default = "default_vulnerabilities_vector")]
     vulnerabilities: Vec<Vulnerability>,
     #[serde(rename = "vulnerabilityScanPassed", default = "default_bool")]
     vulnerability_scan_passed: bool,
@@ -69,6 +71,16 @@ fn default_i32() -> i32 {
 
 fn default_bool() -> bool {
     false
+}
+
+fn default_compliances_vector() -> Vec<Compliance> {
+    let default_compliances =  Vec::new();
+    default_compliances
+}
+
+fn default_vulnerabilities_vector() -> Vec<Vulnerability> {
+    let default_compliances =  Vec::new();
+    default_compliances
 }
 
 fn main() {
